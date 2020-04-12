@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <include layout="@layout/tooalbar"/>
+
+    <TextView
+        android:id="@+id/tv_ts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="74dp"
+        android:gravity="center"
+        android:text="@string/join_title"
+        android:textColor="@color/white"
+        android:textSize="15sp"/>
+
+    <com.thinkd.xshare.widget.RadarScanView
+        android:id="@+id/radarView"
+        android:layout_width="270dp"
+        android:layout_height="270dp"
+        android:layout_below="@id/tv_ts"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"/>
+
+    <LinearLayout
+        android:id="@+id/ll_1"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignLeft="@+id/radarView"
+        android:layout_alignStart="@+id/radarView"
+        android:layout_alignTop="@+id/radarView"
+        android:layout_marginLeft="1dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="26dp">
+
+        <ImageView
+            android:id="@+id/iv_user1"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_gravity="center"
+            android:padding="2dp"
+            android:background="@drawable/img_icon_bg"
+            android:src="@mipmap/avatar_1" />
+
+        <TextView
+            android:id="@+id/tv_wifi_name_1"
+            android:textSize="14sp"
+            android:layout_width="80dp"
+            android:layout_height="17dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:text="1111111111111111"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_2"
+        android:orientation="vertical"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ll_1"
+        android:layout_toRightOf="@+id/ll_1"
+        android:layout_toEndOf="@+id/ll_1"
+        android:layout_marginLeft="66dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="49dp">
+        <ImageView
+            android:id="@+id/iv_user2"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_gravity="center"
+            android:padding="2dp"
+            android:background="@drawable/img_icon_bg"
+            android:src="@mipmap/avatar_1"/>
+
+        <TextView
+            android:id="@+id/tv_wifi_name_2"
+            android:layout_width="80dp"
+            android:layout_height="17dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:text="2222222222222"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_3"
+        android:orientation="vertical"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_2"
+        android:layout_toLeftOf="@+id/ll_2"
+        android:layout_toStartOf="@+id/ll_2"
+        android:layout_marginRight="24dp"
+        android:layout_marginEnd="24dp">
+
+        <ImageView
+            android:id="@+id/iv_user3"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:gravity="center"
+            android:padding="2dp"
+            android:background="@drawable/img_icon_bg"
+            android:src="@mipmap/avatar_1"/>
+
+        <TextView
+            android:id="@+id/tv_wifi_name_3"
+            android:layout_width="80dp"
+            android:layout_height="17dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:textSize="14sp"
+            android:text="333333"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_4"
+        android:orientation="vertical"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_8"
+        android:layout_toLeftOf="@+id/ll_6"
+        android:layout_toStartOf="@+id/ll_6"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp">
+
+        <ImageView
+            android:id="@+id/iv_user4"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_gravity="center"
+            android:padding="2dp"
+            android:background="@drawable/img_icon_bg"
+            android:src="@mipmap/avatar_1"/>
+
+        <TextView
+            android:id="@+id/tv_wifi_name_4"
+            android:layout_width="80dp"
+            android:layout_height="17dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:text="44444444444"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_5"
+        android:orientation="vertical"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ll_7"
+        android:layout_alignLeft="@+id/ll_2"
+        android:layout_alignStart="@+id/ll_2"
+        android:layout_marginLeft="67dp"
+        android:layout_marginStart="67dp"
+        android:layout_marginBottom="25dp">
+
+        <ImageView
+            android:id="@+id/iv_user5"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_gravity="center"
+            android:padding="2dp"
+            android:background="@drawable/img_icon_bg"
+            android:src="@mipmap/avatar_1"/>
+
+        <TextView
+            android:id="@+id/tv_wifi_name_5"
+            android:layout_width="60dp"
+            android:layout_height="17dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:text="555555555555"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_6"
+        android:orientation="vertical"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_10"
+        android:layout_marginTop="14dp"
+        android:layout_toRightOf="@+id/ll_2"
+        android:layout_toEndOf="@+id/ll_2"
+        android:layout_marginLeft="2dp"
+        android:layout_marginStart="2dp">
+
+        <ImageView
+            android:id="@+id/iv_user6"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:padding="2dp"
+            android:background="@drawable/img_icon_bg"
+            android:layout_gravity="center"
+            android:src="@mipmap/avatar_1"/>
+
+        <TextView
+            android:id="@+id/tv_wifi_name_6"
+            android:layout_width="80dp"
+            android:layout_height="17dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:text="666666"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_7"
+        android:orientation="vertical"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_8"
+        android:layout_alignLeft="@+id/ll_1"
+        android:layout_alignStart="@+id/ll_1"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp">
+
+        <ImageView
+            android:id="@+id/iv_user7"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_gravity="center"
+            android:padding="2dp"
+            android:background="@drawable/img_icon_bg"
+            android:src="@mipmap/ic_launcher"/>
+
+        <TextView
+            android:id="@+id/tv_wifi_name_7"
+            android:layout_width="80dp"
+            android:layout_height="17dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:text="7777"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_8"
+        android:orientation="vertical"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/ll_3"
+        android:layout_toEndOf="@+id/ll_3">
+
+        <ImageView
+            android:id="@+id/iv_user8"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_gravity="center"
+            android:padding="2dp"
+            android:background="@drawable/img_icon_bg"
+            android:src="@mipmap/avatar_1"/>
+
+        <TextView
+            android:id="@+id/tv_wifi_name_8"
+            android:layout_width="80dp"
+            android:layout_height="17dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:text="888888"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_9"
+        android:orientation="vertical"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/radarView"
+        android:layout_toRightOf="@+id/ll_7"
+        android:layout_toEndOf="@+id/ll_7">
+
+        <ImageView
+            android:id="@+id/iv_user9"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_gravity="center"
+            android:padding="2dp"
+            android:background="@drawable/img_icon_bg"
+            android:src="@mipmap/avatar_1"/>
+
+        <TextView
+            android:id="@+id/tv_wifi_name_9"
+            android:layout_width="80dp"
+            android:layout_height="17dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:text="999999"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_10"
+        android:orientation="vertical"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/radarView"
+        android:layout_alignLeft="@+id/ll_2"
+        android:layout_alignStart="@+id/ll_2"
+        android:layout_marginLeft="45dp"
+        android:layout_marginStart="45dp">
+
+        <ImageView
+            android:id="@+id/iv_user10"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_gravity="center"
+            android:padding="2dp"
+            android:background="@drawable/img_icon_bg"
+            android:src="@mipmap/avatar_1"/>
+
+        <TextView
+            android:id="@+id/tv_wifi_name_10"
+            android:layout_width="80dp"
+            android:layout_height="17dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:text="101010101010"/>
+    </LinearLayout>
+
+</RelativeLayout>

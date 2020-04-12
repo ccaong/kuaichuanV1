@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_toast"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/progress_view"
+    android:layout_marginTop="5dp"
+    android:gravity="center_horizontal"
+    android:visibility="gone"
+    >
+
+    <TextView
+        android:id="@+id/tv_toast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/conn_toast"
+        android:text="xxx is onling ..."
+        android:textSize="18sp"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include
+        layout="@layout/tooalbar"/>
+
+    <TextView
+        android:id="@+id/tv_step_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:textColor="@color/color_4a3bff"
+        android:textSize="16sp"
+        android:text="@string/invite_hot_tv_1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_de000000"
+            android:textSize="14sp"
+            android:text="@string/invite_hot_tv_1_1"/>
+
+        <TextView
+            android:id="@+id/tv_hotspot_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_de000000"
+            android:textSize="14sp"
+            android:text="@string/invite_hot_tv_1_2"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_de000000"
+            android:textSize="14sp"
+            android:text="@string/invite_hot_tv_1_3"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_step_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="37dp"
+        android:textColor="@color/color_4a3bff"
+        android:textSize="16sp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/invite_hot_tv_2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="6dp"
+        android:textColor="@color/color_de000000"
+        android:text="@string/invite_hot_tv_2_1"/>
+
+    <TextView
+        android:id="@+id/tv_url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:layout_gravity="center"
+        android:textColor="@color/color_4a3bff"
+        android:text="@string/invite_hot_tv_url"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="17dp"
+        android:textColor="@color/color_de000000"
+        android:text="@string/invite_hot_tv_3"/>
+
+    <ImageView
+        android:id="@+id/iv_qr_code_url"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center"
+        android:background="#898989"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/color_d50000"
+        android:text="@string/invite_hot_tv_note"/>
+
+
+
+</LinearLayout>

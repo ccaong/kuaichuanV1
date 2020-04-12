@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Button选中 -->
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="#4C000000" />
+            <stroke   android:width="2dp" android:color="@color/white" />
+            <corners android:radius="@dimen/dp_96" />
+        </shape>
+    </item>
+    <!-- Button未选中 -->
+    <item >
+        <shape>
+            <solid android:color="#00000000" />
+            <stroke android:width="2dp" android:color="@color/white" />
+            <corners android:radius="@dimen/dp_96" />
+        </shape>
+    </item>
+</selector>

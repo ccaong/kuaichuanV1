@@ -1,0 +1,183 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!--菜单文字-->
+        <item name="actionMenuTextColor">@android:color/white</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!--首页的大按钮-->
+    <!--<style name="btn_share">-->
+        <!--<item name="android:layout_width">205dp</item>-->
+        <!--<item name="android:layout_height">205dp</item>-->
+        <!--<item name="android:gravity">center</item>-->
+        <!--<item name="android:background">@drawable/btn_share</item>-->
+    <!--</style>-->
+
+    <!--主页按钮-->
+    <style name="style_home_big_text_view" parent="style_common_text">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/selector_home_text_view_big</item>
+    </style>
+
+    <!--文件发送按钮-->
+    <style name="btn_send">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/btn_send</item>
+    </style>
+
+    <!--app安装按钮-->
+    <style name="style_btn_app_instal" parent="style_common_text">
+        <item name="android:layout_width">64dp</item>
+        <item name="android:layout_height">24dp</item>
+        <item name="android:textColor">#406cfe</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/btnappinstalbg</item>
+    </style>
+
+    <!--分享按钮-->
+    <style name="style_invite_btn_bluetooth" parent="style_common_text">
+        <item name="android:layout_width">201dp</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/invite_btn_bluetooth</item>
+    </style>
+    <style name="style_invite_btn_hotspot" parent="style_common_text">
+        <item name="android:layout_width">201dp</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/invite_btn_hotspot</item>
+    </style>
+
+    <!--传输界面好友在线的提示-->
+    <style name="style_text_user_bg">
+        <item name="android:layout_width">116dp</item>
+        <item name="android:layout_height">24dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/layout_text_user_bg</item>
+    </style>
+
+    <!--文件传输框的背景-->
+    <style name="style_file_transfer_bg">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:background">@drawable/layout_file_transfer_bg</item>
+    </style>
+
+    <style name="style_common_text">
+        <item name="android:text">@string/str_name</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">start</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="actionMenuTextColor">@android:color/white</item>
+
+    </style>
+
+    <style name="MyAppTheme">
+
+    </style>
+
+
+    <style name="style_common_bottom_text_view" parent="style_common_text">
+        <!--<item name="android:layout_width">@dimen/bottom_button_width</item>-->
+        <!--<item name="android:layout_height">@dimen/bottom_button_height</item>-->
+        <item name="android:text">@string/str_has_selected</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center</item>
+        <!--<item name="android:background">@drawable/selector_bottom_text_next</item>-->
+    </style>
+
+    <style name="style_transfer_unit_text_view" parent="style_common_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:text">@string/str_unit_mb</item>
+
+    </style>
+
+    <style name="style_transfer_large_text_view" parent="style_common_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">34sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:text">@string/str_0</item>
+    </style>
+
+    <style name="CustomeTabIndicator" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">#ffd129</item>
+        <item name="tabIndicatorHeight">2dp</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+
+    <style name="ImageloadingDialogStyle" parent="android:Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item><!--无边框-->
+        <item name="android:windowNoTitle">true</item><!--没有标题-->
+        <item name="android:windowIsFloating">true</item><!--是否浮在activity之上-->
+        <item name="android:windowIsTranslucent">true</item><!--背景是否半透明-->
+        <item name="android:windowContentOverlay">@null</item><!--对话框是否有遮盖 -->
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item><!--动画样式-->
+        <item name="android:backgroundDimEnabled">true</item><!--背景是否模糊-->
+    </style>
+
+
+
+
+    <style name="ImageScale" parent="android:Theme.Black.NoTitleBar">
+        <item name="android:windowAnimationStyle">@style/AnimHead</item>
+        <item name="android:windowNoTitle">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowFullscreen">true</item>
+        <!-- 设置全屏显示 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- 边框 -->
+        <item name="android:windowIsFloating">false</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <!-- 模糊 -->
+    </style>
+
+    <style name="AnimHead" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/head_in</item>
+        <item name="android:windowExitAnimation">@anim/head_out</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

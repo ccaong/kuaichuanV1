@@ -1,0 +1,204 @@
+<resources>
+
+    <!--APP名-->
+    <string name="app_name">"XShare"</string>
+
+    <string name="facebook_app_id">"147083042577939"</string>
+
+    <!--toolbar-->
+    <string name="group_share">"แบ่งปันกลุ่ม"</string>
+
+    <!--弹窗-->
+    <string name="prompt_title">"รวดเร็ว"</string>
+    <string name="prompt_yes">"กำหนด"</string>
+    <string name="prompt_no">"ยกเลิก"</string>
+
+    <!--时间-->
+    <string name="time_today">"วันนี้"</string>
+    <string name="time_yesterday">"เมื่อวานนี้"</string>
+
+    <!--欢迎页-->
+    <string name="welcome_text">"เครื่องมือแบ่งปันไฟล์ที่ดีที่สุด"</string>
+
+    <!--首页-->
+    <string name="first_received">"ได้รับ"</string>
+    <string name="first_photo">"รูปภาพ"</string>
+    <string name="first_music">"เพลง"</string>
+    <string name="first_video">"วีดีโอ"</string>
+    <string name="first_app">"App"</string>
+    <string name="first_file">"ไฟล์"</string>
+    <string name="navigation_drawer_open">"เปิดลิ้นชักการนำทาง"</string>
+    <string name="navigation_drawer_close">"ปิดลิ้นชักการนำทาง"</string>
+
+    <!--侧边栏-->
+    <string name="profile">"ข้อมูลส่วนตัว"</string>
+    <string name="nav_share">"แชร์"</string>
+    <string name="nav_feedback">"ความคิดเห็น"</string>
+    <string name="nav_history">"ประวัติ"</string>
+    <string name="nav_toast">"ชื่อผู้ใช้ต้องไม่ว่างเปล่า!"</string>
+
+    <!--历史界面-->
+    <string name="app_title">"App"</string>
+    <string name="photo_title">"รูปภาพ"</string>
+    <string name="video_title">"วีดีโอ"</string>
+    <string name="delete_file_tip">"ลบ"</string>
+    <string name="file_is_deleted">"ลบไฟล์แล้ว"</string>
+    <string name="select_the_file_to_delete">"请先长按要删除的文件"</string>
+    <string name="delete_files">"คุณต้องการลบไฟล์ที่เลือกหรือไม่?"</string>
+
+    <!--全部的历史文件界面-->
+    <string name="history_title">"ประวัติ"</string>
+    <string name="history_toast">" ไม่มีประวัติ"</string>
+
+    <!--MainActivity-->
+    <string name="main_btn_create">"สร้างกลุ่ม"</string>
+    <string name="main_btn_join">"เข้าร่วมกลุ่ม"</string>
+    <string name="Instructions">"<u> ดูคำแนะนำ </u>"</string>
+    <string name="wifi_toast">"คุณลักษณะนี้จำเป็นต้องปิด WIFI และเปิดฮอตสปอต"</string>
+    <string name="hotspot_toast">"คุณลักษณะนี้จำเป็นต้องเปิดใช้ WIFI"</string>
+    <string name="main_toast">"เปิด WIFI ......"</string>
+
+    <!--等待加入界面-->
+    <string name="wait_title">"รอคนอื่นเข้าร่วม ..."</string>
+    <string name="current">"เครือข่ายปัจจุบัน: "</string>
+
+    <!--选择加入界面-->
+    <string name="join_title">"แวดวง Tab เพื่อเข้าร่วมกลุ่ม"</string>
+    <string name="join_toast">"คุณปฏิเสธการอนุญาตและไม่สามารถเข้าร่วมกลุ่มได้"</string>
+    <string name="dialog_msg">"Android6.0 ระบบข้างต้นรุ่นสแกน wifi ต้องเปิด GPS โทรศัพท์เปิด?"</string>
+
+    <!--正在连接界面-->
+    <string name="joining_connection">"เชื่อมต่อ \""</string>
+    <string name="joining_connection1">"\""</string>
+    <string name="joining_text_2">"กำลังเตรียมพร้อมในการส่ง"</string>
+
+    <!--邀请好友页面-->
+    <string name="invite_title">"เชิญ"</string>
+    <string name="invite_tv_1">"แชร์แอปนี้กับอุปกรณ์แอนดรอยด์"</string>
+    <string name="invite_tv_2">"ไม่มีค่าโทรศัพท์มือถือ"</string>
+    <string name="invite_btn_bluetooth">"บลูทูธ"</string>
+    <string name="invite_btn_hotspot">"ฮอตสปอต"</string>
+    <string name="invite_tv_3">"สแกนโค้ด QR เพื่อดาวน์โหลด XShare"</string>
+    <string name="invite_btn_more">"เพิ่มเติม"</string>
+
+    <!--通过热点发送界面-->
+    <string name="invite_hot_title">"ฮอตสปอต"</string>
+    <string name="invite_hot_tv_1">"ขั้นตอนที่ 1"</string>
+    <string name="invite_hot_tv_2">"ขั้นตอนที่ 2"</string>
+    <string name="invite_hot_tv_1_1">"แชร์แอปนี้กับอุปกรณ์แอนดรอยด์ \""</string>
+    <string name="invite_hot_tv_1_2">"ชื่อ HotSpot"</string>
+    <string name="invite_hot_tv_1_3">"\""</string>
+    <string name="invite_hot_tv_2_1">"ขอให้เพื่อนป้อน URL ต่อไปนี้ลงในเบราเซอร์"</string>
+    <string name="invite_hot_tv_url">"http://192.168.43.1:3999"</string>
+    <string name="invite_hot_tv_3">"หรือสแกนโค้ด QR ต่อไปนี้"</string>
+    <string name="invite_hot_tv_note">"หมายเหตุคุณต้องเปิดใช้ข้อมูลมือถือถ้าเพื่อนของคุณใช้ WeChat / QQ / Baidu เพื่อสแกนโค้ด QR"</string>
+
+    <!--说明页-->
+    <string name="instruction_1">"1."</string>
+    <string name="instruction_2">"2."</string>
+    <string name="instruction_3">"3."</string>
+    <string name="instruction_tv_left_title">"วิธีการสร้างกลุ่ม?"</string>
+    <string name="instruction_tv_left">"สร้างกลุ่ม"</string>
+    <string name="instruction_tv_left_1">"สร้างกลุ่ม"</string>
+    <string name="instruction_tv_left_2">"กำลังรอให้คนอื่นเข้าร่วม"</string>
+    <string name="instruction_tv_left_3">"สร้างกลุ่มแล้ว"</string>
+
+    <string name="instruction_tv_right_title">"วิธีการเข้าร่วมกลุ่ม?"</string>
+    <string name="instruction_tv_right">"สมาชิกในกลุ่ม"</string>
+    <string name="instruction_tv_right_1">"เข้าร่วมกลุ่ม"</string>
+    <string name="instruction_tv_right_2">"แวดวง Tab เพื่อเข้าร่วมกลุ่ม"</string>
+    <string name="instruction_tv_right_3">"เข้าร่วมสำเร็จ"</string>
+    <string name="instruction_tv_tip">"เคล็ดลับ:"</string>
+    <string name="instruction_tv_tip_body">"ความเร็วในการถ่ายโอนส่วนใหญ่ขึ้นอยู่กับรุ่นมือถือของกลุ่มผู้สร้าง "</string>
+
+    <!--share界面-->
+    <string name="btn_send">"ส่งไฟล์"</string>
+    <string name="str_unit_mb">"เมกะไบต์"</string>
+    <string name="str_unit_sec">"วินาที"</string>
+    <string name="str_unit_send">"ส่ง"</string>
+    <string name="str_unit_lift">"ยก"</string>
+    <string name="str_dialog_msg">"ไม่ว่าจะออกจากกลุ่มหรือไม่?"</string>
+    <string name="share_toast">"การอนุญาตถูกปฏิเสธไม่สามารถรับไฟล์ได้"</string>
+
+    <!--选择文件界面-->
+    <string-array name="array_res">
+        <item>"วิดีโอ"</item>
+        <item>"แอพพลิเคชัน"</item>
+        <item>"รูปภาพ"</item>
+    </string-array>
+    <string name="select_file_title">"เลือกไฟล์"</string>
+    <string name="str_has_selected">"ส่ง (0)"</string>
+    <string name="str_next">"ส่ง"</string>
+    <string name="str_has_selected_detail">"ส่ง ( %d )"</string>
+    <string name="tip_please_select_your_file">"โปรดเลือกไฟล์ที่คุณต้องการถ่ายโอน"</string>
+
+    <!--发送-->
+    <string name="send_file_title">"ส่งไฟล์"</string>
+    <string name="tip_now_has_task_is_running_exist_now">"ขณะนี้มีไฟล์ที่จะส่ง! \ n จะออกหรือไม่?"</string>
+    <string name="str_yes">"ตกลง"</string>
+    <string name="str_no">"ตกลงno"</string>
+    <string name="title_file_sender">"ส่งไฟล์แล้ว"</string>
+    <string name="send_toast">"ปฏิเสธสิทธิ์ไม่สามารถส่งไฟล์"</string>
+
+    <!--分类接收到的文件界面-->
+    <string name="str_install">"ติดตั้ง"</string>
+    <string name="str_open">"เปิด"</string>
+    <string name="str_run">"เปิด"</string>
+
+    <string name="str_size">"ขนาด"</string>
+    <string name="str_path">"File Path"</string>
+
+    <string name="str_apk">"เอพีเค"</string>
+    <string name="str_jpeg">"JPEG"</string>
+    <string name="str_mp3">"MP3"</string>
+    <string name="str_mp4">"MP4"</string>
+    <string name="str_apk_desc">"App"</string>
+    <string name="str_jpeg_desc">"ภาพ"</string>
+    <string name="str_mp3_desc">"เพลง"</string>
+    <string name="str_mp4_desc">"วีดีโอ"</string>
+
+    <string name="title_activity_choose_file">"ChooseFileActivity"</string>
+    <string name="tip_search">"กรุณาใส่ชื่อไฟล์"</string>
+    <string name="str_title">"หัวข้อ"</string>
+
+    <string name="str_transfer_progress">"กระบวนการส่งข้อมูล"</string>
+    <string name="str_cancel">"ยกเลิก"</string>
+
+    <string name="str_check">"เช็ค"</string>
+    <string name="title_file_receiver">"การรับไฟล์"</string>
+    <string name="title_file_transfer">"ยอมรับไฟล์แล้ว"</string>
+    <string name="title_selected_file_list">"ไฟล์ที่เลือก"</string>
+    <string name="str_selected_file_info_detail">"{count} จำนวนไฟล์ {size}"</string>
+    <string name="str_selected_file_info_detail_default">"0 ไฟล์รวม 0K"</string>
+    <string name="str_clear">"ยอบ"</string>
+
+    <string name="str_0">"0"</string>
+
+    <string name="tip_call_back_agin_and_exist">"กดอีกครั้งเพื่อออกจาก {appName} "</string>
+
+    <string name="tip_permission_denied">"การอนุญาตถูกปฏิเสธ"</string>
+    <string name="tip_permission_denied_and_not_get_file_info_list">"การอนุญาตถูกปฏิเสธไม่สามารถรับรายชื่อแฟ้มได้"</string>
+    <string name="tip_permission_denied_and_not_receive_file">"การอนุญาตถูกปฏิเสธไม่สามารถรับไฟล์ได้"</string>
+    <string name="tip_permission_denied_and_not_send_file">"สิทธิ์ไม่ได้รับอนุญาตไม่สามารถส่งไฟล์ได้"</string>
+    <string name="online">"กำลังออนไลน์ ..."</string>
+    <string name="offline">"กำลังออฟไลน์ ..."</string>
+
+    <string name="str_name">"ชื่อ"</string>
+
+
+    <string name="btn_next">ต่อไป</string>
+    <string name="html_1">แชร์ไฟล์โดยไม่มีเครือข่าย</string>
+    <string name="hotspot">ฮอตสปอต</string>
+    <string name="exitApp">กดอีกครั้งเพื่อออก</string>
+    <string name="download">ดาวน์โหลด</string>
+
+
+    <!--泰语-->
+    <string name="permission_joingroup">แอปพลิเคชันต้องได้รับอนุญาตจาก GPS เพื่อใช้งานต่อไป</string>
+    <string name="permission_creategroup">แอปพลิเคชันต้องได้รับอนุญาตจาก WiFi เพื่อใช้งานต่อไป</string>
+    <string name="permission_gotochoose">แอปพลิเคชันต้องได้รับสิทธิ์ในไฟล์เพื่อใช้งานต่อไป</string>
+    <string name="permission_denied_toast">สิทธิ์ที่จำเป็นสำหรับ xshare จะถูกปฏิเสธ หากต้องการใช้งานต่อคุณต้องให้สิทธิ์ที่จำเป็น</string>
+    <string name="permission_deviceid">แอปพลิเคชันต้องได้รับอนุญาตจากอ่านสถานะของโทรศัพท์เพื่อใช้งานต่อไป</string>
+    <string name="allow">อนุญาต</string>
+    <string name="refuse">ปฏิเสธ</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/tooalbar"/>
+
+    <include layout="@layout/layout_progress_view"/>
+
+    <include layout="@layout/layout_toast"/>
+
+    <include layout="@layout/share_content"/>
+
+</RelativeLayout>

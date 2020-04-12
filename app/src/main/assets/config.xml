@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+
+    <string name="native_ctrl">{exe=1},{withBanner=0},{withNgs=1},{admob=100},{facebook=-1},{admob_en=10000}</string>
+    <string name="banner_ctrl">{exe=1},{admob=100},{facebook=-1},{fbn=-1}</string>
+    <string name="ad_ctrl">{ad_delay=0},{ngsorder=before:0|1:999|adt:2000|adtype=0},{ngsorder:admob=before:2|1:999|adt:0|adtype=0},{ngspit=fake_x:0|fake_click:0|hide_x:0|hide_close:0},{banner_click=100},{native_click=100},{ngs_click=100},{home_delay_time=5000},{ad_silent=0}</string>
+    <string name="resume_ctrl">{exe=0}</string>
+    <string name="ngs_ctrl">{exe=1},{admob=100},{facebook=-1},{fbn=-1}</string>
+    <string name="ad_count_ctrl">{exe=0},{full_interval=0},{full_count=10000},{banner_interval=0},{banner_count=10000},{native_interval=0},{native_count=10000}</string>
+
+    <string name="banner_ids">{admob=ca-app-pub-6805635541526314/8164630057},{fb=147083042577939_147084869244423}</string>
+    <string name="admob_full_ids">{count=2},{id1=ca-app-pub-6805635541526314/5300940795,进入全屏},{id2=ca-app-pub-6805635541526314/6006090751,退出全屏}</string>
+
+    <string name="fb_full_ids">{count=2},{id1=147083042577939_147084665911110,全屏},{id2=147083042577939_148452039107706,全屏}</string>
+    <string name="fbn_full_ids">{count=2},{id1=147083042577939_147084665911110,全屏},{id2=147083042577939_148452039107706,全屏}</string>
+    <string name="fbn_banner_ids">{count=2},{id1=147083042577939_147084665911110,全屏},{id2=147083042577939_148452039107706,全屏}</string>
+
+    <string name="admob_an_ids">
+        {count=2},{id1=ca-app-pub-6805635541526314/5538466716,全屏},{id2=ca-app-pub-6805635541526314/1846633718,全屏}
+
+    </string>
+    <string name="fb_native_ids">
+        {count=2},{id1=147083042577939_147084759244434,全屏},{id2=147083042577939_147084802577763,全屏}
+    </string>
+
+    <string name="native_size">
+        {count=2},{id1=320,80},{id2=320,80}
+    </string>
+
+    <string name="custom_ctrl">
+        {jinru_quanping=1},
+        {tuichu_quanping=1}
+    </string>
+
+
+    <!--<string name="fb_ad_gallery">{exe=1},{fb=459349714453576_521718318216715}</string>-->
+
+    <!--自定义的参数-->
+    <!--quick_full_ad  退出全屏 广告 1：开  0：关-->
+    <!--app_lock_native  应用锁 native 广告 1：开  0：关-->
+    <!--<string name="custom_ctrl">{quick_full_ad=1},{app_lock_native=0}</string>-->
+</map>

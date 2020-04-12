@@ -1,0 +1,205 @@
+<resources>
+
+    <!--APP名-->
+    <string name="app_name">"XShare"</string>
+
+    <string name="facebook_app_id">"147083042577939"</string>
+
+    <!--toolbar-->
+    <string name="group_share">"Доля группы"</string>
+    
+    <!--弹窗-->
+    <string name="prompt_title">"подсказка"</string>
+    <string name="prompt_yes">"определить"</string>
+    <string name="prompt_no">"Отменить"</string>
+    
+    <!--时间-->
+    <string name="time_today">"Cегодня"</string>
+    <string name="time_yesterday">"Вчера"</string>
+
+    <!--欢迎页-->
+    <string name="welcome_text">"Лучший инструмент для обмена файлами"</string>
+
+    <!--首页-->
+    <string name="first_received">"Получено"</string>
+    <string name="first_photo">"Фото"</string>
+    <string name="first_music">"Музыка"</string>
+    <string name="first_video">"Видео"</string>
+    <string name="first_app">"Приложение"</string>
+    <string name="first_file">"Файл"</string>
+    <string name="navigation_drawer_open">"Открыть НАВИГАЦИОНУЮ ПАНЕЛЬ"</string>
+    <string name="navigation_drawer_close">"Закрыть навигационную панель"</string>
+
+    <!--侧边栏-->
+    <string name="profile">"Профиль"</string>
+    <string name="nav_share">"Поделиться"</string>
+    <string name="nav_feedback">"Обратная связь"</string>
+    <string name="nav_history">"История"</string>
+    <string name="nav_toast">"Имя пользователя не может быть пустым!"</string>
+    
+    <!--历史界面-->
+    <string name="app_title">"Приложение"</string>
+    <string name="photo_title">"Фото"</string>
+    <string name="video_title">"Видео"</string>
+    <string name="delete_file_tip">"Удалить"</string>
+    <string name="file_is_deleted">"Удаленный файл"</string>
+    <string name="select_the_file_to_delete">"请先 长 按 要 删除 的 文件"</string>
+    <string name="delete_files">"Вы хотите удалить выбранный файл?"</string>
+
+    <!--全部的历史文件界面-->
+    <string name="history_title">"История"</string>
+    <string name="history_toast">" НЕТ ИСТОРИЯ"</string>
+
+    <!--MainActivity-->
+    <string name="main_btn_create">"СОЗДАТЬ ГРУППУ"</string>
+    <string name="main_btn_join">"ВСТУПИТЬ В ГРУППУ"</string>
+    <string name="Instructions">"&lt;u&gt; См. инструкции &lt;/ u&gt;"</string>
+    <string name="wifi_toast">"Эта функция должна отключить WIFI и включить горячую точку"</string>
+    <string name="hotspot_toast">"Эта функция должна включать WIFI"</string>
+    <string name="main_toast">"Открытие WIFI ......"</string>
+
+    <!--等待加入界面-->
+    <string name="wait_title">"Ожидание присоединения других ..."</string>
+    <string name="current">"Текущая сеть: "</string>
+
+    <!--选择加入界面-->
+    <string name="join_title">"Вкладка аватара для присоединения к группе"</string>
+    <string name="join_toast">"Вы отклонили разрешение и не можете присоединиться к группе"</string>
+    <string name="dialog_msg">"Android6.0 системы выше версии Wi-Fi сканирования необходимо открыть телефон GPS, открыт?"</string>
+
+    <!--正在连接界面-->
+    <string name="joining_connection">"Подключение \""</string>
+    <string name="joining_connection1">"\""</string>
+    <string name="joining_text_2">"Подготовка к отправке"</string>
+
+    <!--邀请好友页面-->
+    <string name="invite_title">"Пригласить"</string>
+    <string name="invite_tv_1">"Поделиться этим приложением на устройствах Android"</string>
+    <string name="invite_tv_2">"без мобильного заряда"</string>
+    <string name="invite_btn_bluetooth">"блютуз"</string>
+    <string name="invite_btn_hotspot">"Точка доступа"</string>
+    <string name="invite_tv_3">"Сканирование QR-кода для загрузки XShare"</string>
+    <string name="invite_btn_more">"БОЛЬШЕ"</string>
+
+    <!--通过热点发送界面-->
+    <string name="invite_hot_title">"Точка доступа"</string>
+    <string name="invite_hot_tv_1">"Стадия 1"</string>
+    <string name="invite_hot_tv_2">"Стадия 2"</string>
+    <string name="invite_hot_tv_1_1">"Поделитесь этим приложением на устройствах Android \""</string>
+    <string name="invite_hot_tv_1_2">"Имя HotSpot"</string>
+    <string name="invite_hot_tv_1_3">"\""</string>
+    <string name="invite_hot_tv_2_1">"Попросите друга ввести следующий URL-адрес в браузер"</string>
+    <string name="invite_hot_tv_url">"http://192.168.43.1:3999"</string>
+    <string name="invite_hot_tv_3">"Или сканировать следующий QR-код"</string>
+    <string name="invite_hot_tv_note">"Примечание. Вы должны включить мобильные данные, если ваши друзья используют WeChat / QQ / Baidu для сканирования QR-кода"</string>
+
+    <!--说明页-->
+    <string name="instruction_1">"1."</string>
+    <string name="instruction_2">"2."</string>
+    <string name="instruction_3">"3."</string>
+    <string name="instruction_tv_left_title">"Как создать группу?"</string>
+    <string name="instruction_tv_left">"Создать группу"</string>
+    <string name="instruction_tv_left_1">"Создать группу"</string>
+    <string name="instruction_tv_left_2">"Ожидание участия других"</string>
+    <string name="instruction_tv_left_3">"Группа создана"</string>
+
+    <string name="instruction_tv_right_title">"Как присоединиться к группе?"</string>
+    <string name="instruction_tv_right">"Участники группы"</string>
+    <string name="instruction_tv_right_1">"Присоединиться к группе"</string>
+    <string name="instruction_tv_right_2">"Вкладка аватара для присоединения к группе"</string>
+    <string name="instruction_tv_right_3">"Успешно"</string>
+    <string name="instruction_tv_tip">"Советы:"</string>
+    <string name="instruction_tv_tip_body">"Скорость передачи в основном зависит от мобильной модели Group Creator. "</string>
+
+    <!--share界面-->
+    <string name="btn_send">"Отправить файл"</string>
+    <string name="str_unit_mb">"мегабайт"</string>
+    <string name="str_unit_sec">"SEC"</string>
+    <string name="str_unit_send">"ОТПРАВИТЬ"</string>
+    <string name="str_unit_lift">"ЛИФТ"</string>
+    <string name="str_dialog_msg">"Выйти из группы?"</string>
+    <string name="share_toast">"Разрешение отклонено, невозможно получить файл"</string>
+
+    <!--选择文件界面-->
+    <string-array name="array_res">
+        <item>"ВИДЕО"</item>
+        <item>"ПРОГРАММЫ"</item>
+        <item>"ФОТО"</item>
+    </string-array>
+    <string name="select_file_title">"Выберите файлы"</string>
+    <string name="str_has_selected">"SEND (0)"</string>
+    <string name="str_next">"ОТПРАВИТЬ"</string>
+    <string name="str_has_selected_detail">"ОТПРАВИТЬ ( %d )"</string>
+    <string name="tip_please_select_your_file">"Выберите файл, который хотите передать"</string>
+    
+    <!--发送-->
+    <string name="send_file_title">"Отправить файлы"</string>
+    <string name="tip_now_has_task_is_running_exist_now">"В настоящее время есть файлы для отправки! \ n Ли выйти?"</string>
+    <string name="str_yes">"Да. "</string>
+    <string name="str_no">"no"</string>
+    <string name="title_file_sender">"Файл отправлен"</string>
+    <string name="send_toast">"Разрешение отклонено, файл не может быть отправлен"</string>
+    
+    <!--分类接收到的文件界面-->
+    <string name="str_install">"Установить"</string>
+    <string name="str_open">"Открыть"</string>
+    <string name="str_run">"Открыть"</string>
+
+    <string name="str_size">"Размер"</string>
+    <string name="str_path">"Путь к файлу:"</string>
+
+    <string name="str_apk">"APK"</string>
+    <string name="str_jpeg">"JPEG"</string>
+    <string name="str_mp3">"MP3"</string>
+    <string name="str_mp4">"MP4"</string>
+    <string name="str_apk_desc">"Приложение"</string>
+    <string name="str_jpeg_desc">"Образ"</string>
+    <string name="str_mp3_desc">"Музыка"</string>
+    <string name="str_mp4_desc">"Видео"</string>
+
+    <string name="title_activity_choose_file">"ChooseFileActivity"</string>
+    <string name="tip_search">"Введите имя файла"</string>
+    <string name="str_title">"Заглавие"</string>
+
+    <string name="str_transfer_progress">"Процесс передачи"</string>
+    <string name="str_cancel">"Отмена"</string>
+
+    <string name="str_check">"Тес"</string>
+    <string name="title_file_receiver">"Прием файлов"</string>
+    <string name="title_file_transfer">"Файл принят"</string>
+    <string name="title_selected_file_list">"Выбранные файлы"</string>
+    <string name="str_selected_file_info_detail">"{count} всего файлов {size}"</string>
+    <string name="str_selected_file_info_detail_default">"0 всего файлов 0K"</string>
+    <string name="str_clear">"Опорожнение"</string>
+
+    <string name="str_0">"0"</string>
+
+    <string name="tip_call_back_agin_and_exist">"Нажмите еще раз, чтобы выйти из {appName} "</string>
+
+    <string name="tip_permission_denied">"Запрещено"</string>
+    <string name="tip_permission_denied_and_not_get_file_info_list">"Разрешение запрещено, невозможно получить список файлов"</string>
+    <string name="tip_permission_denied_and_not_receive_file">"Разрешение отклонено, невозможно получить файл"</string>
+    <string name="tip_permission_denied_and_not_send_file">"Разрешение отклонено, не удалось отправить файл файла"</string>
+	<string name="online">"В сети ..."</string>
+    <string name="offline">"вне форума"</string>
+
+    <string name="str_name">"имя"</string>
+
+    <!--新加的String-->
+    <string name="btn_next">СЛЕДУЮЩИЙ</string>
+    <string name="html_1">Поделиться файлом без сети</string>
+    <string name="hotspot">Hotspot</string>
+    <string name="exitApp">Нажмите еще раз, чтобы выйти</string>
+    <string name="download">Скачать</string>
+
+
+
+    <string name="permission_joingroup">Приложениям необходимо получить разрешение от GPS для продолжения использования.</string>
+    <string name="permission_creategroup">Приложениям необходимо получить разрешение от WiFi для продолжения использования.</string>
+    <string name="permission_gotochoose">Для продолжения использования приложениям требуется доступ к разрешениям файлов.</string>
+    <string name="permission_denied_toast">Разрешения, необходимые для xshare, отклоняются. Если вы хотите продолжить использовать, вы должны предоставить необходимые разрешения.</string>
+    <string name="permission_deviceid">Для продолжения использования приложениям необходимо получить разрешение на чтение состояния телефона.</string>
+    <string name="allow">позволять</string>
+    <string name="refuse">отказаться</string>
+
+</resources>

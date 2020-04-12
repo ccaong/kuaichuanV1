@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    >
+
+    <include
+        layout="@layout/tooalbar"/>
+
+    <Button
+        android:id="@+id/bt_create"
+        android:layout_gravity="center"
+        style="@style/style_home_big_text_view"
+        android:layout_marginTop="160dp"
+        android:text="@string/main_btn_create"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/bt_join"
+        style="@style/style_home_big_text_view"
+        android:layout_marginTop="25dp"
+        android:text="@string/main_btn_join"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/bt_create" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_below="@+id/bt_join"
+        android:layout_marginTop="95dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linearLayout">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@mipmap/instruction"/>
+
+        <TextView
+            android:id="@+id/tv_instructions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            android:textColor="@color/white"
+            android:text="@string/Instructions" />
+    </LinearLayout>
+
+</RelativeLayout>

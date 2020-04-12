@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+
+    <ImageView
+        android:id="@+id/iv_shortcut"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@mipmap/icon_mp3"/>
+
+    <Button
+        android:id="@+id/bt_click"
+        style="@style/style_btn_app_instal"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp"
+        android:textAllCaps="false"
+        android:text="@string/str_install"/>
+
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/iv_shortcut"
+        android:layout_toEndOf="@id/iv_shortcut"
+        android:layout_toStartOf="@id/bt_click"
+        android:layout_toLeftOf="@id/bt_click"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:gravity="left|start"
+            android:text="name"
+            android:textColor="@color/color_de3e3e3e"/>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="8dp"></View>
+
+        <TextView
+            android:id="@+id/tv_size"
+            style="@style/style_common_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left|start"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:text="@string/str_size"
+            android:textColor="@color/color_989898"/>
+
+        <ProgressBar
+            android:id="@+id/pb_file"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_marginTop="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:progressDrawable="@drawable/myprogressbar" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/iv_shortcut"
+        android:layout_toEndOf="@id/iv_shortcut"
+        android:background="#1f000000"/>
+
+</RelativeLayout>

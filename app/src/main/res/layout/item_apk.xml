@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_item_apk"
+    android:layout_width="85dp"
+    android:layout_height="100dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginLeft="4dp"
+    android:layout_marginStart="4dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/iv_shortcut"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="name"
+        android:textColor="#3e3e3e"
+        android:layout_width="70dp"
+        android:layout_height="18dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/tv_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="8dp"
+        android:textSize="12sp"
+        android:text="@string/str_size"
+        android:textColor="#8a000000"/>
+
+    <RelativeLayout
+        android:id="@+id/apk_selected"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#33000000"
+        android:visibility="gone">
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/iv_ok_tick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="51dp"
+        android:layout_marginStart="51dp"
+        android:src="@mipmap/icon_ok_tick"/>
+
+</RelativeLayout>

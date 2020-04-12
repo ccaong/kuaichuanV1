@@ -1,0 +1,38 @@
+apply plugin: 'com.android.library'
+
+repositories {
+    jcenter()
+}
+
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion '25.0.0'
+
+    defaultConfig {
+        minSdkVersion 11
+        targetSdkVersion 23
+        versionCode 85
+        versionName "1.0.85"
+
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.google.android.gms:play-services-ads:10.0.1'
+    compile 'com.android.support:recyclerview-v7:24.0.0'
+    compile 'com.google.android.exoplayer:exoplayer:r2.0.3'
+    provided 'com.inmobi.monetization:inmobi-ads:6.1.1'
+    provided 'com.flurry.android:ads:7.0.0@aar'
+    provided 'com.flurry.android:analytics:7.0.0@aar'
+    //    compile 'com.firebase:firebase-jobdispatcher:0.5.2'
+    //    compile 'com.facebook.android:audience-network-sdk:4.23.0'
+}

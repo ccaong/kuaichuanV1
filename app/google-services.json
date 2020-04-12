@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "558880106864",
+    "firebase_url": "https://xshare-4b0d4.firebaseio.com",
+    "project_id": "xshare-4b0d4",
+    "storage_bucket": "xshare-4b0d4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:558880106864:android:ccaf2b4e019cc59b",
+        "android_client_info": {
+          "package_name": "com.thinkd.xshare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "558880106864-d21j773uvttvpbsbfo61nkbo2ghjj9r3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaHLkTo-0VlObEaRXtBL8hS-cssQ78nb4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

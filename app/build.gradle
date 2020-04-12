@@ -1,0 +1,115 @@
+buildscript {
+//    repositories {
+//        maven { url 'https://maven.fabric.io/public' }
+//    }
+
+//    dependencies {
+//        classpath 'io.fabric.tools:gradle:1.+'
+//    }
+}
+apply plugin: 'com.android.application'
+//apply plugin: 'io.fabric'
+
+apply plugin: 'org.greenrobot.greendao'
+
+
+
+repositories {
+    mavenCentral()
+//    maven { url 'https://maven.fabric.io/public' }
+}
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '26.0.2'
+
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+    
+    signingConfigs {
+        config {
+            keyAlias 'xshare'
+            keyPassword '123457'
+            storeFile file('../xshare.jks')
+            storePassword '123457'
+        }
+    }
+
+    defaultConfig {
+        applicationId "com.thinkd.xshare"
+
+        minSdkVersion 14
+        targetSdkVersion 23
+        versionCode 3
+        versionName "1.2"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+
+        javaCompileOptions {
+
+            annotationProcessorOptions {
+
+                includeCompileClasspath = true
+
+            }
+
+        }
+
+    }
+    greendao {
+        schemaVersion 1 //当前数据库版本
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
+        }
+    }
+//    android.applicationVariants.all{variant ->
+//        variant.outputs.each { output ->
+//            def outputFile = output.outputFile
+//            if (outputFile != null && outputFile.name.endsWith('.apk')) {
+//                //这里修改apk文件名
+//                def fileName = outputFile.name.replace("app","${defaultConfig.applicationId }_${defaultConfig.versionName}")
+//                output.outputFile = new File(outputFile.parent, fileName)
+//            }
+//        }
+//    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile files('libs/zxing_core.jar')
+    compile 'com.android.support:design:24.2.1'
+    compile 'com.android.support:support-v4:24.2.1'
+    compile 'com.android.support:appcompat-v7:24.2.1'
+    compile 'com.android.support:recyclerview-v7:24.2.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.jakewharton:butterknife:7.0.1'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'de.hdodenhof:circleimageview:2.1.0'
+    compile 'org.greenrobot:greendao:3.2.2'
+    testCompile 'junit:junit:4.12'
+    compile 'com.facebook.android:facebook-android-sdk:4.23.0'
+    compile files('libs/zxing_core.jar')
+    compile 'com.google.firebase:firebase-core:10.0.1'
+    compile project(':adsplugin')
+    compile('com.crashlytics.sdk.android:crashlytics:2.7.1@aar') {
+        transitive = true;
+    }
+    compile 'com.android.support:multidex:1.0.1'
+
+    compile 'com.github.hotchemi:permissionsdispatcher:2.3.1'
+    annotationProcessor 'com.github.hotchemi:permissionsdispatcher-processor:2.3.1'
+    compile 'org.nanohttpd:nanohttpd:2.2.0'
+}
+
+apply plugin: 'com.google.gms.google-services'
+
+

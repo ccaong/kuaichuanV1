@@ -1,0 +1,119 @@
+广告插件使用方法
+
+//初始化配置文件
+//放在main/assets/config.xml里面，具体的配置参数的含义，另外再说
+
+
+//初始花需要设置的方法和属性
+AdAppHelper.GA_RESOURCE_ID = R.xml.app_tracker;//指定GA的xml文件，一般不需要设置
+AdAppHelper.ENABLE_UPLOAD_AD_EVENT = true;//是否允许上报数据统计，默认开启，一般不需要调用
+AdAppHelper.FIREBASE = Firebase.getInstance(getApplicationContext());//设置FireBase上报的对象，这个一定要设置，并且使用我们统一的Firebase的类
+//设置Admob Native的宽度，根据实际情况来设置，单位是dp值，-1表示是屏幕宽度，一般不需要设置，但是如果不是匹配匹配屏幕宽度，比如布局中显示广告的位置有padding或者margin，就需要设置
+AdAppHelper.NATIVE_ADMOB_WIDTH_LIST = new int[3];//这里的3表示有三个native的位置
+for (int i = 0; i < AdAppHelper.NATIVE_ADMOB_WIDTH_LIST.length; i++) {
+    AdAppHelper.NATIVE_ADMOB_WIDTH_LIST[i] = 10;//这个根据实际情况设置
+}
+//设置Facebook的native的背景色，一般不需要设置，如果应用为了美观，可以根据需要设置
+AdAppHelper.NATIVE_BG_COLOR_LIST = new int[3];
+for (int i = 0; i < AdAppHelper.NATIVE_BG_COLOR_LIST.length; i++) {
+    AdAppHelper.NATIVE_BG_COLOR_LIST[i] = Color.TRANSPARENT;
+}
+//设置Facebook的native的字体颜色，一般不需要设置，如果应用为了美观，可以根据需要设置
+AdAppHelper.NATIVE_TEXT_COLOR_LIST = new int[3];
+for (int i = 0; i < AdAppHelper.NATIVE_TEXT_COLOR_LIST.length; i++) {
+    AdAppHelper.NATIVE_TEXT_COLOR_LIST[i] = Color.WHITE;
+}
+//调用初始化方法，必须要调用，这些初始化工作都要在Application的onCreate方法中调用
+AdAppHelper.getInstance(getApplicationContext()).init();
+
+//一些方法
+//请求新的banner
+AdAppHelper.getInstance(getApplicationContext()).loadNewBanner();
+//请求新的native，全部位置
+AdAppHelper.getInstance(getApplicationContext()).loadNewNative();
+//请求新的native，指定位置的
+AdAppHelper.getInstance(getApplicationContext()).loadNewNative(0);
+//请求新的全屏，全部位置
+AdAppHelper.getInstance(getApplicationContext()).loadNewInterstitial();
+//请求新的全屏，指定位置
+AdAppHelper.getInstance(getApplicationContext()).loadNewInterstitial(0);
+
+//判断是否有native加载成功，任意一个native位置加载成功都会返回true，所有都没加载成功返回false
+AdAppHelper.getInstance(getApplicationContext()).isNativeLoaded();
+//判断指定位置的native是否加载成功
+AdAppHelper.getInstance(getApplicationContext()).isNativeLoaded(0);
+//判断是否有全屏加载成功，任意一个全屏位置加载成功都会返回true，所有都没加载成功返回false
+AdAppHelper.getInstance(getApplicationContext()).isFullAdLoaded();
+//判断指定位置的全屏是否加载成功
+AdAppHelper.getInstance(getApplicationContext()).isFullAdLoaded(0);
+
+//banner和native返回的是一个view，需要加载自己需要的位置上
+//获取banner
+AdAppHelper.getInstance(getApplicationContext()).getBanner();
+//获取native,任意位置的native
+AdAppHelper.getInstance(getApplicationContext()).getNative();
+//获取native,指定位置的native
+AdAppHelper.getInstance(getApplicationContext()).getNative(0);
+//显示全屏
+AdAppHelper.getInstance(getApplicationContext()).showFullAd();
+//显示指定的全屏
+AdAppHelper.getInstance(getApplicationContext()).showFullAd(0);
+
+//新闻接口
+//以下三个设置，可以根据实际情况设置
+AdAppHelper.NEWS_ADMOB_WIDTH = -1;//dp值
+AdAppHelper.NEWS_TITLE_COLOR = Color.BLACK;
+AdAppHelper.NEWS_DETAIL_COLOR = Color.GRAY;
+
+AdAppHelper.getInstance(getApplicationContext()).loadNews();
+
+FrameLayout adView = (FrameLayout)findViewById(R.id.adContainer);
+if (AdAppHelper.getInstance(getApplicationContext()).isNewsReady()) {
+    FrameLayout.LayoutParams params = new FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT, Gravity.CENTER);
+    adView.addView(AdAppHelper.getInstance(getApplicationContext()).getNewsView(), params);
+}
+AdAppHelper.getInstance(getApplicationContext()).setNewsListener(new NewsListener() {
+    @Override
+    public void onNewsReady() {
+        super.onNewsReady();
+    }
+
+    @Override
+    public void onNewsClicked() {
+        super.onNewsClicked();
+    }
+});
+
+//新闻通知点击
+AdAppHelper.getInstance(getApplicationContext()).setNewsClickIntent(new Intent(this, MainActivity.class));
+
+//getNative第二种方法
+getNative(index, parent, layoutParams);
+这个方法没有返回值，需要传递待添加的父窗体和布局参数，广告会在加载好后，自动添加到指定的父布局中。
+
+//闪屏界面广告
+AdAppHelper.getInstance(getApplicationContext()).loadNewSplashAd();
+
+if (AdAppHelper.getInstance(getApplicationContext()).isSplashReady()) {
+    View view = AdAppHelper.getInstance(getApplicationContext()).getSplashAd();
+    FrameLayout frameLayout = (FrameLayout)findViewById(R.id.splash);
+    FrameLayout.LayoutParams layoutParams = new FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT, Gravity.TOP);
+    frameLayout.addView(view, layoutParams);
+}
+
+
+//某些activity不自动显示广告，activity继承ShowAdFilter接口，并实现allowShowAd方法，返回false，则不受自动显示全屏控制
+
+//视频广告接口
+AdAppHelper.getInstance(getApplicationContext()).loadNewRewardedVideoAd();
+AdAppHelper.getInstance(getApplicationContext()).setRewardedListener(new RewardedListener() {
+    @Override
+    public void onReward() {
+        System.out.println("onReward");
+    }
+});
+if (AdAppHelper.getInstance(getApplicationContext()).isVideoReady()) {
+    AdAppHelper.getInstance(getApplicationContext()).showVideoAd();
+} else {
+    AdAppHelper.getInstance(getApplicationContext()).loadNewRewardedVideoAd();
+}

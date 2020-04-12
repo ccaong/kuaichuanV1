@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          package="com.thinkd.xshare">
+    <!--the two 还有一个Alert_ 这俩个只能用AcForResult来操作-->
+
+    <!--读取手机中的账号信息-->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+    <!--允许读写系统设置项-->
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+
+    <!--danger-->
+    <!--位置权限-->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+
+    <!--读写权限-->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <!--访问电话状态 deviceid-->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <!--/////////////////////////////////////////////////////////////////////////////////////////-->
+    <!--normal-->
+    <!--WiFi状态-->
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
+    <!--WiFi-->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <!--Bluetooth-->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <!--允许程序获取当前或最近运行的应用-->
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!--挂载、反挂载外部文件系统-->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <!--允许程序在手机屏幕关闭后后台进程仍然运行-->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+
+    <!--安装说明?-->
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <!--size-->
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE" />
+    <!--清除应用缓存?-->
+    <uses-permission android:name="android.permission.CLEAR_APP_CACHE" />
+    <!--允许一个广播提示一个消息在一个已经移除后-->
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+
+
+    <uses-sdk tools:overrideLibrary="com.thinkd.xshare, com.facebook, android.support.customtabs"/>
+
+    <application
+        android:name="com.thinkd.xshare.base.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id"/>
+
+        <activity android:name="com.thinkd.xshare.ui.activity.WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.thinkd.xshare.base.BaseActivity"/>
+        <activity
+            android:name="com.thinkd.xshare.ui.activity.MainActivity"
+            android:launchMode="singleTop"/>
+        <activity
+            android:name="com.thinkd.xshare.ui.activity.WaitingJoinActivity"
+            android:launchMode="singleTop"/>
+        <activity
+            android:name="com.thinkd.xshare.ui.activity.ScanWiFiActivity"
+            android:launchMode="singleTop"/>
+        <activity
+            android:name="com.thinkd.xshare.ui.activity.ShareFileActivity"
+            android:launchMode="singleTop"/>
+        <activity
+            android:name="com.thinkd.xshare.ui.activity.ChooseFileActivity"
+            android:launchMode="singleTop"/>
+        <activity
+            android:name="com.thinkd.xshare.ui.activity.SendFileActivity"
+            android:launchMode="singleTop"/>
+        <activity android:name="com.thinkd.xshare.ui.activity.history.AppHistoryActivity">
+        </activity>
+        <activity android:name="com.thinkd.xshare.ui.activity.PhotoHistoryActivity">
+        </activity>
+        <activity
+            android:name="com.thinkd.xshare.ui.activity.ImageShowerActivity"
+            android:theme="@style/ImageScale"/>
+        <activity android:name="com.thinkd.xshare.ui.activity.MusicHistoryActivity">
+        </activity>
+        <activity android:name="com.thinkd.xshare.ui.activity.VideoHistoryActivity">
+        </activity>
+
+        <activity android:name="com.thinkd.xshare.ui.activity.SetUserInformation"/>
+        <activity android:name="com.thinkd.xshare.ui.activity.InviteFriendsActivity"/>
+        <activity android:name="com.thinkd.xshare.ui.activity.InviteByHotspotActivity"/>
+        <activity android:name="com.thinkd.xshare.ui.activity.ChooseAvatarActivity"/>
+        <activity android:name="com.thinkd.xshare.ui.activity.JoiningGroupActivity"/>
+        <activity android:name="com.thinkd.xshare.ui.activity.InstructionActivity"/>
+        <activity
+            android:name="com.thinkd.xshare.ui.activity.FirstActivity"
+            android:launchMode="singleTask"/>
+        <activity android:name="com.thinkd.xshare.ui.activity.HistoryActivity">
+        </activity>
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="9079ddcf9e2a8e3950d33f47650963d4ed420999"/>
+    </application>
+
+</manifest>

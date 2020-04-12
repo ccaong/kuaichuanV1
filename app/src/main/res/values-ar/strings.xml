@@ -1,0 +1,206 @@
+<resources>
+
+    <!--APP名-->
+    <string name="app_name">"XShare"</string>
+
+    <string name="facebook_app_id">"147083042577939"</string>
+
+    <!--toolbar-->
+    <string name="group_share">"حصة المجموعة"</string>
+    
+    <!--弹窗-->
+    <string name="prompt_title">"مستعجل"</string>
+    <string name="prompt_yes">"تحديد"</string>
+    <string name="prompt_no">"إلغاء"</string>
+    
+    <!--时间-->
+    <string name="time_today">"اليوم "</string>
+    <string name="time_yesterday">"أمس"</string>
+
+    <!--欢迎页-->
+    <string name="welcome_text">"أفضل أداة مشاركة الملفات"</string>
+
+    <!--首页-->
+    <string name="first_received">"تم الأستلام"</string>
+    <string name="first_photo">"صورة"</string>
+    <string name="first_music">"موسيقى"</string>
+    <string name="first_video">"فيديو"</string>
+    <string name="first_app">"التطبيق"</string>
+    <string name="first_file">"ملف"</string>
+    <string name="navigation_drawer_open">"فتح درج التنقل"</string>
+    <string name="navigation_drawer_close">"إغلاق القائمة الرئيسة "</string>
+
+    <!--侧边栏-->
+    <string name="profile">"ملف"</string>
+    <string name="nav_share">"شارك"</string>
+    <string name="nav_feedback">"التقييم"</string>
+    <string name="nav_history">"تاريخ"</string>
+    <string name="nav_toast">"لا يمكن أن يكون اسم المستخدم فارغا"</string>
+    
+    <!--历史界面-->
+    <string name="app_title">"التطبيق"</string>
+    <string name="photo_title">"صورة"</string>
+    <string name="video_title">"فيديو"</string>
+    <string name="delete_file_tip">"حذف"</string>
+    <string name="file_is_deleted">"تم حذف الملف"</string>
+    <string name="select_the_file_to_delete">"请先 长 按 要 删除 的 文件"</string>
+    <string name="delete_files">"هل تريد حذف الملف المحدد؟"</string>
+
+    <!--全部的历史文件界面-->
+    <string name="history_title">"تاريخ"</string>
+    <string name="history_toast">" لا يوجد تاريخ"</string>
+
+    <!--MainActivity-->
+    <string name="main_btn_create">"إنشاء مجموعة"</string>
+    <string name="main_btn_join">"الإلتحاق بالمجموعة"</string>
+    <string name="Instructions">"<u> راجع التعليمات </u>"</string>
+    <string name="wifi_toast">"تحتاج هذه الميزة لإيقاف ويفي وتشغيل نقطة ساخنة"</string>
+    <string name="hotspot_toast">"تحتاج هذه الميزة لتشغيل واي فاي"</string>
+    <string name="main_toast">"ويفي فتح ......"</string>
+
+    <!--等待加入界面-->
+    <string name="wait_title">"جار انتظار الآخرين الانضمام ..."</string>
+    <string name="current">"الحالي نيتورك: "</string>
+
+    <!--选择加入界面-->
+    <string name="join_title">"تبويب الرمزية للانضمام إلى مجموعة"</string>
+    <string name="join_toast">"لقد رفضت الإذن، ولا يمكنك الانضمام إلى المجموعة"</string>
+    <string name="dialog_msg">"نظام Android6.0 أعلاه نسخة من واي فاي المسح تحتاج إلى فتح غس الهاتف، هو مفتوح؟"</string>
+
+    <!--正在连接界面-->
+    <string name="joining_connection">"توصيل \""</string>
+    <string name="joining_connection1">"\""</string>
+    <string name="joining_text_2">"إعداد لإرسال"</string>
+
+    <!--邀请好友页面-->
+    <string name="invite_title">"دعوة "</string>
+    <string name="invite_tv_1">"مشاركة هذا التطبيق لأجهزة الروبوت"</string>
+    <string name="invite_tv_2">"دون تهمة المحمول"</string>
+    <string name="invite_btn_bluetooth">"بلوتوث"</string>
+    <string name="invite_btn_hotspot">"نقطة ساخنة"</string>
+    <string name="invite_tv_3">"مسح رمز الاستجابة السريعة لتحميل زشار"</string>
+    <string name="invite_btn_more">"المزي"</string>
+
+    <!--通过热点发送界面-->
+    <string name="invite_hot_title">"نقطة ساخنة"</string>
+    <string name="invite_hot_tv_1">"الخطوة 1"</string>
+    <string name="invite_hot_tv_2">"الخطوة 2"</string>
+    <string name="invite_hot_tv_1_1">"مشاركة هذا التطبيق لأجهزة الروبوت \""</string>
+    <string name="invite_hot_tv_1_2">"اسم نقطة ساخنة"</string>
+    <string name="invite_hot_tv_1_3">"\""</string>
+    <string name="invite_hot_tv_2_1">"اطلب من صديقك إدخال عنوان ورل التالي في المتصفح"</string>
+    <string name="invite_hot_tv_url">"http://192.168.43.1:3999"</string>
+    <string name="invite_hot_tv_3">"أو مسح رمز الاستجابة السريعة التالية"</string>
+    <string name="invite_hot_tv_note">"ملاحظة يجب تشغيل البيانات المتنقلة إذا كان أصدقائك استخدام ويشات / ق / بايدو لمسح رمز الاستجابة السريعة"</string>
+
+    <!--说明页-->
+    <string name="instruction_1">"1. "</string>
+    <string name="instruction_2">"2."</string>
+    <string name="instruction_3">"3."</string>
+    <string name="instruction_tv_left_title">"كيفية إنشاء مجموعة؟"</string>
+    <string name="instruction_tv_left">"إنشاء مجموعة"</string>
+    <string name="instruction_tv_left_1">"إنشاء مجموعة"</string>
+    <string name="instruction_tv_left_2">"في انتظار الآخرين للانضمام"</string>
+    <string name="instruction_tv_left_3">"קבוצה נוצרה"</string>
+
+    <string name="instruction_tv_right_title">"كيفية الانضمام إلى المجموعة؟"</string>
+    <string name="instruction_tv_right">"أعضاء الفرقة"</string>
+    <string name="instruction_tv_right_1">"انضمام مجموعة"</string>
+    <string name="instruction_tv_right_2">"تبويب الرمزية للانضمام إلى مجموعة"</string>
+    <string name="instruction_tv_right_3">"انضم بنجاح"</string>
+    <string name="instruction_tv_tip">"Tip:-"</string>
+    <string name="instruction_tv_tip_body">"سرعة نقل يعتمد في الغالب على النموذج المحمول الخالق المجموعة. "</string>
+
+    <!--share界面-->
+    <string name="btn_send">"إرسال ملف"</string>
+    <string name="str_unit_mb">"ميكابايت"</string>
+    <string name="str_unit_sec">"مجلس التعليم العالي"</string>
+    <string name="str_unit_send">"تعليق"</string>
+    <string name="str_unit_lift">"ليفت"</string>
+    <string name="str_dialog_msg">"سواء لمغادرة المجموعة؟"</string>
+    <string name="share_toast">"تم رفض الإذن، لا يمكن تلقي الملف"</string>
+
+    <!--选择文件界面-->
+    <string-array name="array_res">
+        <item>"أشرطة مصوّرة"</item>
+        <item>"التطبيقات"</item>
+        <item>"الصور"</item>
+    </string-array>
+    <string name="select_file_title">"اختر الملفات"</string>
+    <string name="str_has_selected">"سيند (0)"</string>
+    <string name="str_next">"تعليق"</string>
+    <string name="str_has_selected_detail">"إرسال ( %d )"</string>
+    <string name="tip_please_select_your_file">"الرجاء تحديد الملف الذي تريد نقله"</string>
+    
+    <!--发送-->
+    <string name="send_file_title">"أرسال الملفات"</string>
+    <string name="tip_now_has_task_is_running_exist_now">"حاليا هناك ملفات لإرسال! \ n ما إذا كنت تريد الخروج؟"</string>
+    <string name="str_yes">"نعم فعلا"</string>
+    <string name="str_no">"لا"</string>
+    <string name="title_file_sender">"تم ارسال الملف"</string>
+    <string name="send_toast">"تم رفض الإذن، لا يمكن إرسال الملف"</string>
+    
+    <!--分类接收到的文件界面-->
+    <string name="str_install">"تثبيت"</string>
+    <string name="str_open">" فتح "</string>
+    <string name="str_run">" فتح "</string>
+
+    <string name="str_size">"بحجم"</string>
+    <string name="str_path">"مسار الملف:"</string>
+
+    <string name="str_apk">"APK"</string>
+    <string name="str_jpeg">"ملفات الصور جيه بيه إيه جي (JPEG)"</string>
+    <string name="str_mp3">"MP3"</string>
+    <string name="str_mp4">"MP4"</string>
+    <string name="str_apk_desc">"التطبيق"</string>
+    <string name="str_jpeg_desc">"صورة"</string>
+    <string name="str_mp3_desc">"موسيقى"</string>
+    <string name="str_mp4_desc">"فيديو"</string>
+
+    <string name="title_activity_choose_file">"ChooseFileActivity"</string>
+    <string name="tip_search">"الرجاء إدخال اسم الملف"</string>
+    <string name="str_title">"اسم"</string>
+
+    <string name="str_transfer_progress">"عملية النقل"</string>
+    <string name="str_cancel">"الغي"</string>
+
+    <string name="str_check">"التحقق من "</string>
+    <string name="title_file_receiver">"استقبال الملفات"</string>
+    <string name="title_file_transfer">"الملف مقبول"</string>
+    <string name="title_selected_file_list">"الملفات المحددة"</string>
+    <string name="str_selected_file_info_detail">"{كونت} إجمالي الملفات {سيز}"</string>
+    <string name="str_selected_file_info_detail_default">"0 مجموع الملفات 0K"</string>
+    <string name="str_clear">"أفرغت"</string>
+
+    <string name="str_0">"0"</string>
+
+    <string name="tip_call_back_agin_and_exist">"اضغط مرة أخرى للخروج من {أبنام} "</string>
+
+    <string name="tip_permission_denied">"طلب مرفوض"</string>
+    <string name="tip_permission_denied_and_not_get_file_info_list">"تم رفض الإذن، لا يمكن الحصول على قائمة الملفات"</string>
+    <string name="tip_permission_denied_and_not_receive_file">"تم رفض الإذن، تعذر استلام الملف"</string>
+    <string name="tip_permission_denied_and_not_send_file">"تم رفض الإذن، تعذر إرسال ملف الملف"</string>
+	<string name="online">"متصل ..."</string>
+    <string name="offline">"غير متصل ..."</string>
+
+    <string name="str_name">"اسم"</string>
+
+    <!--新加的String-->
+    <string name="btn_next">التالى</string>
+    <string name="html_1">مشاركة الملف مع عدم وجود شبكة</string>
+    <string name="hotspot">نقطة ساخنة</string>
+    <string name="exitApp">اضغط مرة أخرى للخروج</string>
+
+    <string name="download">تحميل</string>
+
+    <string name="permission_joingroup">تحتاج التطبيقات للحصول على إذن من غس لمواصلة استخدام.</string>
+    <string name="permission_creategroup">تحتاج التطبيقات للحصول على إذن من واي فاي لمواصلة استخدام.</string>
+    <string name="permission_gotochoose" >تحتاج التطبيقات إلى الوصول إلى أذونات الملف لمواصلة استخدامها.</string>
+    <string name="permission_denied_toast">يتم رفض الأذونات المطلوبة ل ششار. إذا كنت ترغب في الاستمرار في استخدام، يجب منح الأذونات المطلوبة.</string>
+    <string name="permission_deviceid">تحتاج التطبيقات للحصول على إذن من READ_PHONE_STATE لمواصلة استخدام.</string>
+
+    <string name="allow">السماح</string>
+    <string name="refuse">رفض</string>
+
+
+</resources>

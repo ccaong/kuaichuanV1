@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <include layout="@layout/tooalbar"/>
+
+    <TextView
+        android:id="@+id/tv_prompt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="74dp"
+        android:gravity="center"
+        android:text="@string/wait_title"
+        android:textColor="@color/white"
+        android:textSize="15sp"/>
+
+    <com.thinkd.xshare.widget.WaveView
+        android:id="@+id/wave"
+        android:layout_below="@id/tv_prompt"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="270dp"
+        android:layout_height="270dp"
+        app:wave_color="@color/white"
+        app:wave_coreImageRadius="0"
+        app:wave_width="70"/>
+
+    <ImageView
+        android:id="@+id/head"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:padding="3dp"
+        android:background="@drawable/img_round_bg"
+        android:src="@mipmap/avatar_1"
+        android:layout_below="@+id/tv_prompt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="101dp" />
+
+    <TextView
+        android:id="@+id/tv_my_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/head"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:text="Lin"/>
+
+    <TextView
+        android:id="@+id/tv_device_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/wave"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:text="设备名称"
+        android:textColor="@color/white"
+        android:textSize="16sp"/>
+
+    <!--<TextView-->
+        <!--android:id="@+id/tv_desc"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignTop="@+id/tv_device_name"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:text="描述"-->
+        <!--android:textColor="#ffffff"/>-->
+
+</RelativeLayout>

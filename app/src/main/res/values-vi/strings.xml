@@ -1,0 +1,204 @@
+<resources>
+
+    <!--APP名-->
+    <string name="app_name">"XShare"</string>
+
+    <string name="facebook_app_id">"147083042577939"</string>
+
+    <!--toolbar-->
+    <string name="group_share">"Chia sẻ nhóm"</string>
+
+    <!--弹窗-->
+    <string name="prompt_title">"hỏi"</string>
+    <string name="prompt_yes">"determine"</string>
+    <string name="prompt_no">"Hủy"</string>
+
+    <!--时间-->
+    <string name="time_today">"Hôm nay"</string>
+    <string name="time_yesterday">"Hôm qua"</string>
+
+    <!--欢迎页-->
+    <string name="welcome_text">"Công cụ chia sẻ tệp tin tốt nhất"</string>
+
+    <!--首页-->
+    <string name="first_received">"Đã nhận"</string>
+    <string name="first_photo">"Ảnh"</string>
+    <string name="first_music">"Nhạc"</string>
+    <string name="first_video">"Video"</string>
+    <string name="first_app">"Ứng dụng"</string>
+    <string name="first_file">"Tệp"</string>
+    <string name="navigation_drawer_open">"Mở ngăn điều hướng"</string>
+    <string name="navigation_drawer_close">"Close navigation drawer"</string>
+
+    <!--侧边栏-->
+    <string name="profile">"Hồ sơ"</string>
+    <string name="nav_share">"Chia sẻ "</string>
+    <string name="nav_feedback">"Phản hồi"</string>
+    <string name="nav_history">"Lịch sử"</string>
+    <string name="nav_toast">"Tên đăng nhập không được để trống"</string>
+
+    <!--历史界面-->
+    <string name="app_title">"Ứng dụng"</string>
+    <string name="photo_title">"Ảnh"</string>
+    <string name="video_title">"Video"</string>
+    <string name="delete_file_tip">"Xóa bỏ"</string>
+    <string name="file_is_deleted">"Đã xóa tệp"</string>
+    <string name="select_the_file_to_delete">"请先 长 按 要 删除 的 文件"</string>
+    <string name="delete_files">"Bạn có muốn xóa tập tin đã chọn?"</string>
+
+    <!--全部的历史文件界面-->
+    <string name="history_title">"Lịch sử"</string>
+    <string name="history_toast">" Không có lịch sử"</string>
+
+    <!--MainActivity-->
+    <string name="main_btn_create">"Tạo nhóm"</string>
+    <string name="main_btn_join">"THAM GIA NHÓM"</string>
+    <string name="Instructions">"<u> Xem Hướng dẫn </u>"</string>
+    <string name="wifi_toast">"Tính năng này cần để tắt WIFI và bật điểm phát sóng"</string>
+    <string name="hotspot_toast">"Tính năng này cần bật WIFI"</string>
+    <string name="main_toast">"Mở WIFI ......"</string>
+
+    <!--等待加入界面-->
+    <string name="wait_title">"Đang chờ người khác tham gia ..."</string>
+    <string name="current">"Mạng hiện tại: "</string>
+
+    <!--选择加入界面-->
+    <string name="join_title">"Hình đại diện của Tab tham gia nhóm"</string>
+    <string name="join_toast">"Bạn đã từ chối sự cho phép và không thể tham gia nhóm"</string>
+    <string name="dialog_msg">"Android6.0 hệ thống trên phiên bản của quét wifi cần phải mở điện thoại GPS, mở?"</string>
+
+    <!--正在连接界面-->
+    <string name="joining_connection">"Kết nối \""</string>
+    <string name="joining_connection1">"\""</string>
+    <string name="joining_text_2">"Chuẩn bị gửi"</string>
+
+    <!--邀请好友页面-->
+    <string name="invite_title">"Mời gọi"</string>
+    <string name="invite_tv_1">"Chia sẻ ứng dụng này tới thiết bị Android"</string>
+    <string name="invite_tv_2">"không có điện thoại di động"</string>
+    <string name="invite_btn_bluetooth">"Bluetooth"</string>
+    <string name="invite_btn_hotspot">"Hotspot"</string>
+    <string name="invite_tv_3">"Quét mã QR để tải xuống XShare"</string>
+    <string name="invite_btn_more">"HƠN"</string>
+
+    <!--通过热点发送界面-->
+    <string name="invite_hot_title">"Hotspot"</string>
+    <string name="invite_hot_tv_1">"Bước 1"</string>
+    <string name="invite_hot_tv_2">"Bước 2"</string>
+    <string name="invite_hot_tv_1_1">"Chia sẻ ứng dụng này cho thiết bị Android \""</string>
+    <string name="invite_hot_tv_1_2">"Mọi chuyện rồi sẽ qua"</string>
+    <string name="invite_hot_tv_1_3">"\""</string>
+    <string name="invite_hot_tv_2_1">"Yêu cầu người bạn nhập URL sau vào trình duyệt"</string>
+    <string name="invite_hot_tv_url">"http://192.168.43.1:3999"</string>
+    <string name="invite_hot_tv_3">"Hoặc quét theo mã QR"</string>
+    <string name="invite_hot_tv_note">"Lưu ý Bạn phải bật dữ liệu di động nếu bạn bè của bạn sử dụng WeChat / QQ / Baidu để quét mã QR"</string>
+
+    <!--说明页-->
+    <string name="instruction_1">"1. "</string>
+    <string name="instruction_2">"2."</string>
+    <string name="instruction_3">"3."</string>
+    <string name="instruction_tv_left_title">"Làm thế nào để tạo ra nhóm?"</string>
+    <string name="instruction_tv_left">"Tạo Nhóm"</string>
+    <string name="instruction_tv_left_1">"Tạo một Nhóm"</string>
+    <string name="instruction_tv_left_2">"Đang chờ người khác tham gia"</string>
+    <string name="instruction_tv_left_3">"Nhóm đã tạo"</string>
+
+    <string name="instruction_tv_right_title">"Làm thế nào để tham gia nhóm?"</string>
+    <string name="instruction_tv_right">"thành viên nhóm"</string>
+    <string name="instruction_tv_right_1">"Tham gia nhóm"</string>
+    <string name="instruction_tv_right_2">"Hình đại diện của Tab tham gia nhóm"</string>
+    <string name="instruction_tv_right_3">"Gia nhập thành công"</string>
+    <string name="instruction_tv_tip">"Tiền boa:"</string>
+    <string name="instruction_tv_tip_body">"Tốc độ truyền chủ yếu phụ thuộc vào mô hình di động của Tập đoàn. "</string>
+
+    <!--share界面-->
+    <string name="btn_send">"GỬI FILE"</string>
+    <string name="str_unit_mb">"MB"</string>
+    <string name="str_unit_sec">"SEC"</string>
+    <string name="str_unit_send">"GỬI"</string>
+    <string name="str_unit_lift">"THANG MÁY"</string>
+    <string name="str_dialog_msg">"Có nên ra khỏi nhóm không?"</string>
+    <string name="share_toast">"Quyền bị từ chối, không thể nhận tệp"</string>
+
+    <!--选择文件界面-->
+    <string-array name="array_res">
+        <item>"VIDEOS"</item>
+        <item>"APPS"</item>
+        <item>"HÌNH ẢNH"</item>
+    </string-array>
+    <string name="select_file_title">"Chọn tệp tin"</string>
+    <string name="str_has_selected">"G SI (0)"</string>
+    <string name="str_next">"GỬI"</string>
+    <string name="str_has_selected_detail">"SEND ( %d )"</string>
+    <string name="tip_please_select_your_file">"Vui lòng chọn tệp bạn muốn chuyển"</string>
+
+    <!--发送-->
+    <string name="send_file_title">"Gửi tập tin"</string>
+    <string name="tip_now_has_task_is_running_exist_now">"Hiện tại có các tập tin để gửi! \ n Cho dù xuất cảnh?"</string>
+    <string name="str_yes">"Vâng"</string>
+    <string name="str_no">"Không"</string>
+    <string name="title_file_sender">"Đã gửi tệp"</string>
+    <string name="send_toast">"Quyền bị từ chối, không thể gửi tệp"</string>
+
+    <!--分类接收到的文件界面-->
+    <string name="str_install">"Cài đặt"</string>
+    <string name="str_open">"Mở"</string>
+    <string name="str_run">"Mở"</string>
+
+    <string name="str_size">"Kích thước"</string>
+    <string name="str_path">"Đường dẫn tập tin:"</string>
+
+    <string name="str_apk">"APK"</string>
+    <string name="str_jpeg">"JPEG"</string>
+    <string name="str_mp3">"MP3"</string>
+    <string name="str_mp4">"MP4"</string>
+    <string name="str_apk_desc">"Ứng dụng"</string>
+    <string name="str_jpeg_desc">"Hình ảnh"</string>
+    <string name="str_mp3_desc">"Âm nhạc"</string>
+    <string name="str_mp4_desc">"Video"</string>
+
+    <string name="title_activity_choose_file">"ChọnFileActivity"</string>
+    <string name="tip_search">"Vui lòng nhập tên tệp"</string>
+    <string name="str_title">"Tiêu đề"</string>
+
+    <string name="str_transfer_progress">"Quá trình truyền"</string>
+    <string name="str_cancel">"Hủy"</string>
+
+    <string name="str_check">"Kiểm tra"</string>
+    <string name="title_file_receiver">"Tiếp nhận tập tin"</string>
+    <string name="title_file_transfer">"Chấp nhận tệp"</string>
+    <string name="title_selected_file_list">"Các tệp được chọn"</string>
+    <string name="str_selected_file_info_detail">"{count} tổng số tệp {size}"</string>
+    <string name="str_selected_file_info_detail_default">"0 tổng số tệp 0K"</string>
+    <string name="str_clear">"Rỗng"</string>
+
+    <string name="str_0">"0"</string>
+
+    <string name="tip_call_back_agin_and_exist">"Nhấn lại để thoát {appName} "</string>
+
+    <string name="tip_permission_denied">"Quyền bị từ chối"</string>
+    <string name="tip_permission_denied_and_not_get_file_info_list">"Quyền bị từ chối, không thể có được danh sách tập tin"</string>
+    <string name="tip_permission_denied_and_not_receive_file">"Quyền bị từ chối, không thể nhận được tệp"</string>
+    <string name="tip_permission_denied_and_not_send_file">"Quyền bị từ chối, không thể gửi tệp tin"</string>
+    <string name="online">"đang trực tuyến ..."</string>
+    <string name="offline">"đang offline ..."</string>
+
+    <string name="str_name">"Tên"</string>
+
+
+    <string name="btn_next">KẾ TIẾP</string>
+    <string name="html_1">Chia sẻ tệp không có mạng</string>
+    <string name="hotspot">Hotspot</string>
+    <string name="exitApp">Nhấn lại để thoát</string>
+    <string name="download">Tải về</string>
+
+
+    <string name="permission_joingroup">Các ứng dụng cần phải được phép từ GPS để tiếp tục sử dụng.</string>
+    <string name="permission_creategroup">Các ứng dụng cần phải có sự cho phép từ WiFi để tiếp tục sử dụng.</string>
+    <string name="permission_gotochoose">Các ứng dụng cần truy cập vào quyền truy cập tệp để tiếp tục sử dụng chúng.</string>
+    <string name="permission_denied_toast">Giấy phép yêu cầu cho xshare bị từ chối. Nếu bạn muốn tiếp tục sử dụng, bạn phải cấp các quyền được phép.</string>
+    <string name="permission_deviceid">Các ứng dụng cần phải được phép từ trạng thái điện thoại đọc để tiếp tục sử dụng.</string>
+    <string name="allow">cho phép</string>
+    <string name="refuse">từ chối</string>
+
+</resources>

@@ -1,0 +1,216 @@
+<resources>
+
+    <!--APP名-->
+    <string name="app_name">XShare</string>
+
+    <string name="facebook_app_id">147083042577939</string>
+
+    <!--toolbar-->
+    <string name="group_share">Group Share</string>
+
+    <!--弹窗-->
+    <string name="prompt_title">prompt</string>
+    <string name="prompt_yes">yes</string>
+    <string name="prompt_no">no</string>
+
+    <!--时间-->
+    <string name="time_today">Today</string>
+    <string name="time_yesterday">Yesterday</string>
+
+    <!--欢迎页-->
+    <string name="welcome_text">The best file sharing tool</string>
+
+    <!--首页-->
+    <string name="first_received">Received</string>
+    <string name="first_photo">Photo</string>
+    <string name="first_music">Music</string>
+    <string name="first_video">Video</string>
+    <string name="first_app">App</string>
+    <string name="first_file">File</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!--侧边栏-->
+    <string name="profile">Profile</string>
+    <string name="nav_share">Share</string>
+    <string name="nav_feedback">Feedback</string>
+    <string name="nav_history">History</string>
+    <string name="nav_toast">Username can not be empty</string>
+
+    <!--历史界面-->
+    <string name="app_title">App</string>
+    <string name="photo_title">Photo</string>
+    <string name="video_title">Video</string>
+    <string name="delete_file_tip">Delete？</string>
+    <string name="file_is_deleted">File deleted</string>
+    <string name="select_the_file_to_delete">请先长按要删除的文件</string>
+    <string name="delete_files">Do you want to delete the selected file?</string>
+
+    <!--全部的历史文件界面-->
+    <string name="history_title">History</string>
+    <string name="history_toast"> No History</string>
+
+    <!--MainActivity-->
+    <string name="main_btn_create">CREATE GROUP</string>
+    <string name="main_btn_join">JOIN GROUP</string>
+    <string name="Instructions"><u>See the Instructions</u></string>
+    <string name="wifi_toast">This feature needs to turn off the WIFI and turn on hotspot</string>
+    <string name="hotspot_toast">This feature needs to turn on the WIFI</string>
+    <string name="main_toast">WIFI opening......</string>
+
+    <!--等待加入界面-->
+    <string name="wait_title">Waiting for others joining...</string>
+    <string name="current">Current netWork: </string>
+
+    <!--选择加入界面-->
+    <string name="join_title">Tab avatar to join a group</string>
+    <string name="join_toast">You declined the permission,and can not join the group</string>
+    <string name="dialog_msg">Android6.0 system above version of wifi scanning need to open the phone GPS, is open?</string>
+
+    <!--正在连接界面-->
+    <string name="joining_connection">Connecting \"</string>
+    <string name="joining_connection1">\"</string>
+    <string name="joining_text_2">Prepareing to send</string>
+
+    <!--邀请好友页面-->
+    <string name="invite_title">Invite</string>
+    <string name="invite_tv_1">Share this app to Android devices</string>
+    <string name="invite_tv_2">without mobile charge</string>
+    <string name="invite_btn_bluetooth">Bluetooth</string>
+    <string name="invite_btn_hotspot">Hotspot</string>
+    <string name="invite_tv_3">Scan the QR code to download XShare</string>
+    <string name="invite_btn_more">MORE</string>
+
+    <!--通过热点发送界面-->
+    <string name="invite_hot_title">Hotspot</string>
+    <string name="invite_hot_tv_1">Step 1</string>
+    <string name="invite_hot_tv_2">Step 2</string>
+    <string name="invite_hot_tv_1_1">Share this app to Android devices \"</string>
+    <string name="invite_hot_tv_1_2">HotSpot Name</string>
+    <string name="invite_hot_tv_1_3">\"</string>
+    <string name="invite_hot_tv_2_1">Ask friend to enter the following URL into the browser</string>
+    <string name="invite_hot_tv_url">http://192.168.43.1:3999</string>
+    <string name="invite_hot_tv_3">Or scan following QR code</string>
+    <string name="invite_hot_tv_note">Note You must turn on mobile data if your friends use WeChat/QQ/Baidu to scan the QR code</string>
+
+    <!--说明页-->
+    <string name="instruction_1">1.</string>
+    <string name="instruction_2">2.</string>
+    <string name="instruction_3">3.</string>
+    <string name="instruction_tv_left_title">How to create group?</string>
+    <string name="instruction_tv_left">Group Create</string>
+    <string name="instruction_tv_left_1">Create a Group</string>
+    <string name="instruction_tv_left_2">Waiting for others to join</string>
+    <string name="instruction_tv_left_3">Group created</string>
+
+    <string name="instruction_tv_right_title">How to join group?</string>
+    <string name="instruction_tv_right">Group Members</string>
+    <string name="instruction_tv_right_1">Join a Group</string>
+    <string name="instruction_tv_right_2">Tab avatar to join a group</string>
+    <string name="instruction_tv_right_3">Joined successfully</string>
+    <string name="instruction_tv_tip">Tip:</string>
+    <string name="instruction_tv_tip_body">Transfer speed mostly depends on Group Creator\'s mobile model. </string>
+
+    <!--share界面-->
+    <string name="btn_send">SEND FILE</string>
+    <string name="str_unit_mb">MB</string>
+    <string name="str_unit_sec">SEC</string>
+    <string name="str_unit_send">SEND</string>
+    <string name="str_unit_lift">LIFT</string>
+    <string name="str_dialog_msg">Whether to leave the group?</string>
+    <string name="share_toast">Permission denied, can not receive file</string>
+
+    <!--选择文件界面-->
+    <string-array name="array_res">
+        <item>VIDEOS</item>
+        <item>APPS</item>
+        <item>PHOTOS</item>
+    </string-array>
+    <string name="select_file_title">Select Files</string>
+    <string name="str_has_selected">SEND（0）</string>
+    <string name="str_next">SEND</string>
+    <string name="str_has_selected_detail">SEND（%d）</string>
+    <string name="tip_please_select_your_file">Please select the file you want to transfer</string>
+
+    <!--发送-->
+    <string name="send_file_title">Send Files</string>
+    <string name="tip_now_has_task_is_running_exist_now">Currently there are files to send! \n Whether to exit？</string>
+    <string name="str_yes">yes</string>
+    <string name="str_no">no</string>
+    <string name="title_file_sender">File sent</string>
+    <string name="send_toast">Permission denied, file can not be sent</string>
+
+    <!--分类接收到的文件界面-->
+    <string name="str_install">Install</string>
+    <string name="str_open">Open</string>
+    <string name="str_run">Open</string>
+
+    <string name="str_size">Size</string>
+    <string name="str_path">File path：</string>
+
+    <string name="str_apk">APK</string>
+    <string name="str_jpeg">JPEG</string>
+    <string name="str_mp3">MP3</string>
+    <string name="str_mp4">MP4</string>
+    <string name="str_apk_desc">App</string>
+    <string name="str_jpeg_desc">Image</string>
+    <string name="str_mp3_desc">Music</string>
+    <string name="str_mp4_desc">Video</string>
+
+    <string name="title_activity_choose_file">ChooseFileActivity</string>
+    <string name="tip_search">Please enter the file name</string>
+    <string name="str_title">Title</string>
+
+    <string name="str_transfer_progress">Transmission process</string>
+    <string name="str_cancel">Cancel</string>
+
+    <string name="str_check">Check</string>
+    <string name="title_file_receiver">File reception</string>
+    <string name="title_file_transfer">File accepted</string>
+    <string name="title_selected_file_list">Selected files</string>
+    <string name="str_selected_file_info_detail">{count}total of files{size}</string>
+    <string name="str_selected_file_info_detail_default">0 total of files 0K</string>
+    <string name="str_clear">Emptied</string>
+
+    <string name="str_0">0</string>
+
+    <string name="tip_call_back_agin_and_exist">Press again to exit {appName} </string>
+
+    <string name="tip_permission_denied">Permission denied</string>
+    <string name="tip_permission_denied_and_not_get_file_info_list">Permission denied, can not get file list</string>
+    <string name="tip_permission_denied_and_not_receive_file">Permission denied, unable to receive the file</string>
+    <string name="tip_permission_denied_and_not_send_file">Permission denied, unable to send file file</string>
+    <string name="online">is online ...</string>
+    <string name="offline">is offline ...</string>
+
+    <string name="str_name">Name</string>
+
+    <!--新加的String-->
+    <string name="btn_next">NEXT</string>
+    <string name="html_1">Share file with no network</string>
+    <string name="hotspot">Hotspot</string>
+    <string name="exitApp">Press again to exit</string>
+
+    <string name="download">DOWNLOAD</string>
+
+    <string name="permission_joingroup">Applications need to get permission from GPS to continue to use.</string>
+    <string name="permission_creategroup">Applications need to get permission from WiFi to continue to use.</string>
+    <string name="permission_gotochoose">Applications need access to file permissions to continue using them.</string>
+    <string name="permission_denied_toast">The permissions required for xshare are denied. If you want to continue to use, you must grant the required permissions.</string>
+
+    <string name="permission_deviceid">Applications need to get permission from READ_PHONE_STATE to continue to use.</string>
+
+    <string name="allow">allow</string>
+    <string name="refuse">refuse</string>
+
+
+
+    <!--未翻译-->
+    <string name="permission_get_google_name">Applications need to get the name of your Google Account</string>
+    <string name="quitgroup">quit group</string>
+    <string name="history_header">Mobile Data Saved</string>
+    <string name="histoty_sent">Sent:</string>
+    <string name="histoty_received">Received:</string>
+    <string name="sendto">send to </string>
+
+</resources>

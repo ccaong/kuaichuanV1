@@ -1,0 +1,210 @@
+<resources>
+
+    <!--APP名-->
+    <string name="app_name">"XShare"</string>
+
+    <string name="facebook_app_id">"147083042577939"</string>
+
+    <!--toolbar-->
+    <string name="group_share">"Grupo Compartilhar"</string>
+    
+    <!--弹窗-->
+    <string name="prompt_title">"pronto"</string>
+    <string name="prompt_yes">"determinar"</string>
+    <string name="prompt_no">"Cancelar"</string>
+    
+    <!--时间-->
+    <string name="time_today">"Hoje"</string>
+    <string name="time_yesterday">"ontem"</string>
+
+    <!--欢迎页-->
+    <string name="welcome_text">"A melhor ferramenta de compartilhamento de arquivos"</string>
+
+    <!--首页-->
+    <string name="first_received">"Recebido"</string>
+    <string name="first_photo">"Foto"</string>
+    <string name="first_music">"Música"</string>
+    <string name="first_video">"Vídeo"</string>
+    <string name="first_app">"Aplicativo"</string>
+    <string name="first_file">"Arquivo"</string>
+    <string name="navigation_drawer_open">"Abrir menu de navegação"</string>
+    <string name="navigation_drawer_close">"Fechar menu de navegação"</string>
+
+    <!--侧边栏-->
+    <string name="profile">"Perfil"</string>
+    <string name="nav_share">"Compartilhar"</string>
+    <string name="nav_feedback">"Comentários"</string>
+    <string name="nav_history">"Histórico"</string>
+    <string name="nav_toast">"O nome de usuário não pode estar vazio"</string>
+    
+    <!--历史界面-->
+    <string name="app_title">"PP **"</string>
+    <string name="photo_title">"Foto"</string>
+    <string name="video_title">"Vídeo"</string>
+    <string name="delete_file_tip">"Apagar"</string>
+    <string name="file_is_deleted">"Arquivo apagado"</string>
+    <string name="select_the_file_to_delete">"请先 长 按 要 删除 的 文件"</string>
+    <string name="delete_files">"Excluir o arquivo selecionado?"</string>
+
+    <!--全部的历史文件界面-->
+    <string name="history_title">"Histórico"</string>
+    <string name="history_toast">" Não há histórico"</string>
+
+    <!--MainActivity-->
+    <string name="main_btn_create">"Criar grupo"</string>
+    <string name="main_btn_join">"JUNTAR-SE AO GRUPO "</string>
+    <string name="Instructions">"<u> Veja as Instruções </u>"</string>
+    <string name="wifi_toast">"Esse recurso precisa desligar o WIFI e ativar o ponto de acesso"</string>
+    <string name="hotspot_toast">"Esse recurso precisa ativar o WIFI"</string>
+    <string name="main_toast">"WIFI abrindo ......"</string>
+
+    <!--等待加入界面-->
+    <string name="wait_title">"Esperando que outros se juntem ..."</string>
+    <string name="current">"Rede atual: "</string>
+
+    <!--选择加入界面-->
+    <string name="join_title">"Tab avatar para se juntar a um grupo"</string>
+    <string name="join_toast">"Você recusou a permissão e não pode se juntar ao grupo"</string>
+    <string name="dialog_msg">"O sistema Android6.0 acima da varredura wifi precisa abrir o telefone GPS, está aberto?"</string>
+
+    <!--正在连接界面-->
+    <string name="joining_connection">"Conectando \""</string>
+    <string name="joining_connection1">"\""</string>
+    <string name="joining_text_2">"Preparando para enviar"</string>
+
+    <!--邀请好友页面-->
+    <string name="invite_title">"convidar"</string>
+    <string name="invite_tv_1">"Compartilhe este aplicativo em dispositivos Android"</string>
+    <string name="invite_tv_2">"sem carga móvel"</string>
+    <string name="invite_btn_bluetooth">"Bluetooth"</string>
+    <string name="invite_btn_hotspot">"HotSpot"</string>
+    <string name="invite_tv_3">"Digitalize o código QR para baixar o XShare"</string>
+    <string name="invite_btn_more">"MAIS"</string>
+
+    <!--通过热点发送界面-->
+    <string name="invite_hot_title">"Ponto de acesso"</string>
+    <string name="invite_hot_tv_1">"Passo 1"</string>
+    <string name="invite_hot_tv_2">"Passo 2"</string>
+    <string name="invite_hot_tv_1_1">"Compartilhe este aplicativo em dispositivos Android \""</string>
+    <string name="invite_hot_tv_1_2">"Nome do HotSpot"</string>
+    <string name="invite_hot_tv_1_3">"\""</string>
+    <string name="invite_hot_tv_2_1">"Peça ao amigo para inserir o seguinte URL no navegador"</string>
+    <string name="invite_hot_tv_url">"http://192.168.43.1:3999"</string>
+    <string name="invite_hot_tv_3">"Ou escaneie o seguinte código QR"</string>
+    <string name="invite_hot_tv_note">"Observação Você deve ativar os dados móveis se seus amigos usam WeChat / QQ / Baidu para verificar o código QR"</string>
+
+    <!--说明页-->
+    <string name="instruction_1">"1."</string>
+    <string name="instruction_2">"2."</string>
+    <string name="instruction_3">"3."</string>
+    <string name="instruction_tv_left_title">"Como criar um grupo?"</string>
+    <string name="instruction_tv_left">"Grupo Criar"</string>
+    <string name="instruction_tv_left_1">"Crie um grupo"</string>
+    <string name="instruction_tv_left_2">"Esperando que outros se juntem"</string>
+    <string name="instruction_tv_left_3">"Grupo criado"</string>
+
+    <string name="instruction_tv_right_title">"Como se juntar ao grupo?"</string>
+    <string name="instruction_tv_right">"Membros do grupo"</string>
+    <string name="instruction_tv_right_1">"Participe de um grupo"</string>
+    <string name="instruction_tv_right_2">"Tab avatar para se juntar a um grupo"</string>
+    <string name="instruction_tv_right_3">"Conectado com sucesso"</string>
+    <string name="instruction_tv_tip">"Gorjeta:"</string>
+    <string name="instruction_tv_tip_body">"A velocidade de transferência depende principalmente do modelo móvel do Group Creator. "</string>
+
+    <!--share界面-->
+    <string name="btn_send">"ENVIAR ARQUIVO"</string>
+    <string name="str_unit_mb">"MB"</string>
+    <string name="str_unit_sec">"SEC"</string>
+    <string name="str_unit_send">"ENVIAR"</string>
+    <string name="str_unit_lift">"LIFT"</string>
+    <string name="str_dialog_msg">"Quer deixar o grupo?"</string>
+    <string name="share_toast">"Permissão negada, não pode receber arquivo"</string>
+
+    <!--选择文件界面-->
+    <string-array name="array_res">
+        <item>"VÍDEOS"</item>
+        <item>"APPS"</item>
+        <item>"FOTOS"</item>
+    </string-array>
+    <string name="select_file_title">"Selecionar arquivos"</string>
+    <string name="str_has_selected">"Enviar"</string>
+    <string name="str_next">"ENVIAR"</string>
+    <string name="str_has_selected_detail">"ENVIAR ( %d )"</string>
+    <string name="tip_please_select_your_file">"Selecione o arquivo que deseja transferir"</string>
+    
+    <!--发送-->
+    <string name="send_file_title">"Enviar arquivos"</string>
+    <string name="tip_now_has_task_is_running_exist_now">"Atualmente, existem arquivos para enviar! \ n Se sair?"</string>
+    <string name="str_yes">"sim"</string>
+    <string name="str_no">"não"</string>
+    <string name="title_file_sender">"Arquivo enviado"</string>
+    <string name="send_toast">"Permissão negada, o arquivo não pode ser enviado"</string>
+    
+    <!--分类接收到的文件界面-->
+    <string name="str_install">"Instalar"</string>
+    <string name="str_open">"Aberto"</string>
+    <string name="str_run">"Aberto"</string>
+
+    <string name="str_size">"Size"</string>
+    <string name="str_path">"Caminho de arquivo:"</string>
+
+    <string name="str_apk">"APK"</string>
+    <string name="str_jpeg">"JPEG"</string>
+    <string name="str_mp3">"MP4, ."</string>
+    <string name="str_mp4">"MP4, ."</string>
+    <string name="str_apk_desc">"PP **"</string>
+    <string name="str_jpeg_desc">"Imagem"</string>
+    <string name="str_mp3_desc">"Música"</string>
+    <string name="str_mp4_desc">"Vídeo"</string>
+
+    <string name="title_activity_choose_file">"ChooseFileActivity"</string>
+    <string name="tip_search">"Digite o nome do arquivo"</string>
+    <string name="str_title">"Título"</string>
+
+    <string name="str_transfer_progress">"Processo de transmissão"</string>
+    <string name="str_cancel">"Cancelar"</string>
+
+    <string name="str_check">"Passo."</string>
+    <string name="title_file_receiver">"Recepção do arquivo"</string>
+    <string name="title_file_transfer">"Arquivo aceito"</string>
+    <string name="title_selected_file_list">"Arquivos selecionados"</string>
+    <string name="str_selected_file_info_detail">"{count} total de arquivos {tamanho}"</string>
+    <string name="str_selected_file_info_detail_default">"0 total de arquivos 0K"</string>
+    <string name="str_clear">"Vazio"</string>
+
+    <string name="str_0">"0"</string>
+
+    <string name="tip_call_back_agin_and_exist">"Pressione novamente para sair do {appName} "</string>
+
+    <string name="tip_permission_denied">"Permissão negada!"</string>
+    <string name="tip_permission_denied_and_not_get_file_info_list">"Permissão negada, não é possível obter a lista de arquivos"</string>
+    <string name="tip_permission_denied_and_not_receive_file">"Permissão negada, incapaz de receber o arquivo"</string>
+    <string name="tip_permission_denied_and_not_send_file">"Permissão negada, incapaz de enviar arquivo"</string>
+	<string name="online">"está online ..."</string>
+    <string name="offline">"está offline ..."</string>
+
+    <string name="str_name">"Nome"</string>
+
+
+
+
+    <!--新加的String-->
+    <string name="btn_next">PRÓXIMO</string>
+    <string name="html_1">Compartilhar arquivo sem rede</string>
+    <string name="hotspot">Ponto de acesso</string>
+    <string name="exitApp">Pressione novamente para sair</string>
+    <string name="download">Download</string>
+
+
+
+
+    <string name="permission_joingroup">Os aplicativos precisam obter permissão do GPS para continuar a usar.</string>
+    <string name="permission_creategroup">Os aplicativos precisam obter permissão do WiFi para continuar a usar.</string>
+    <string name="permission_gotochoose">Os aplicativos precisam acessar permissões de arquivo para continuar usando-os.</string>
+    <string name="permission_denied_toast">As permissões necessárias para o xshare são negadas. Se você deseja continuar a usar, você deve conceder as permissões necessárias.</string>
+    <string name="permission_deviceid">Os aplicativos precisam obter permissão para ler o estado do telefone para continuar a usar.</string>
+    <string name="allow">permitir</string>
+    <string name="refuse">recusar
+</string>
+
+</resources>

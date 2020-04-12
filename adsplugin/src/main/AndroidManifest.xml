@@ -1,0 +1,63 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bestgo.adsplugin">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true">
+
+        <activity android:name=".ads.activity.RecommendAdActivity"></activity>
+        <activity
+            android:name=".ads.activity.AdActivity"/>
+        <activity
+            android:name=".ads.activity.ScreenActivity"
+            android:excludeFromRecents="true"
+            android:noHistory="true"
+            android:theme="@android:style/Theme.Translucent"/>
+        <activity
+            android:name=".ads.activity.PackageActivity"
+            android:excludeFromRecents="true"
+            android:noHistory="true"
+            android:theme="@android:style/Theme.Translucent"/>
+        <receiver android:name=".ads.receiver.MonitorReceiver">
+            <intent-filter android:priority="1000">
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+                <action android:name="android.intent.action.USER_PRESENT" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".ads.receiver.PackageMonitorReceiver">
+            <intent-filter android:priority="1000">
+                <action android:name="android.intent.action.PACKAGE_REPLACED"/>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.facebook.ads.AudienceNetworkActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@android:style/Theme.Translucent"/>
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent"/>
+
+        <service android:name=".ads.service.WorkerService"
+            android:exported="true">
+        </service>
+
+        <service android:name=".ads.service.C">
+        </service>
+        <service android:name=".ads.service.CC" android:process=":worker"></service>
+        <service android:name=".ads.service.B" android:process=":worker"></service>
+        <service android:name=".ads.service.BB"  android:process=":worker" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="true">
+        </service>
+        <service android:name=".ads.service.D"></service>
+    </application>
+
+</manifest>

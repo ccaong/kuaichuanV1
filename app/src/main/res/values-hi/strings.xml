@@ -1,0 +1,206 @@
+<resources>
+
+    <!--APP名-->
+    <string name="app_name">"XShare"</string>
+
+    <string name="facebook_app_id">"147083042577939"</string>
+
+    <!--toolbar-->
+    <string name="group_share">"समूह शेयर"</string>
+
+    <!--弹窗-->
+    <string name="prompt_title">"प्रेरित करें"</string>
+    <string name="prompt_yes">"निर्धारित करना"</string>
+    <string name="prompt_no">"रद्द करना"</string>
+
+    <!--时间-->
+    <string name="time_today">"आज"</string>
+    <string name="time_yesterday">"बिता कल"</string>
+
+    <!--欢迎页-->
+    <string name="welcome_text">"सबसे अच्छा फ़ाइल साझाकरण उपकरण"</string>
+
+    <!--首页-->
+    <string name="first_received">"प्राप्त"</string>
+    <string name="first_photo">"फोटो"</string>
+    <string name="first_music">"संगीत"</string>
+    <string name="first_video">"वीडियो"</string>
+    <string name="first_app">"ऐप"</string>
+    <string name="first_file">"फ़ाइल"</string>
+    <string name="navigation_drawer_open">"मेन्यु खोलें "</string>
+    <string name="navigation_drawer_close">"मेन्यु बंद करें"</string>
+
+    <!--侧边栏-->
+    <string name="profile">"Profile"</string>
+    <string name="nav_share">"शेयर"</string>
+    <string name="nav_feedback">" प्रतिक्रिया "</string>
+    <string name="nav_history">"इतिहास"</string>
+    <string name="nav_toast">"उपयोगकर्ता नाम रिक्त नहीं हो सकता।"</string>
+
+    <!--历史界面-->
+    <string name="app_title">"ऐप"</string>
+    <string name="photo_title">"फोटो"</string>
+    <string name="video_title">"वीडियो"</string>
+    <string name="delete_file_tip">"हटाना"</string>
+    <string name="file_is_deleted">"फ़ाइल हटाई गई"</string>
+    <string name="select_the_file_to_delete">"请先 长 按 要 删除 的 文件"</string>
+    <string name="delete_files">"क्या आप चयनित फ़ाइल को हटाना चाहते हैं?"</string>
+
+    <!--全部的历史文件界面-->
+    <string name="history_title">"इतिहास"</string>
+    <string name="history_toast">" कोई इतिहास"</string>
+
+    <!--MainActivity-->
+    <string name="main_btn_create">"समूह बनाएँ "</string>
+    <string name="main_btn_join">"ग्रुप में शामिल हों"</string>
+    <string name="Instructions">"&lt;u&gt; निर्देश देखें &lt;/ u&gt;"</string>
+    <string name="wifi_toast">"इस सुविधा को वाईफ़ाई बंद करने और हॉटस्पॉट चालू करने की आवश्यकता है"</string>
+    <string name="hotspot_toast">"इस सुविधा को वाईफ़ाई को चालू करने की आवश्यकता है"</string>
+    <string name="main_toast">"वाईफ़ाई खोलने ......"</string>
+
+    <!--等待加入界面-->
+    <string name="wait_title">"शामिल होने के लिए प्रतीक्षा की जा रही है ..."</string>
+    <string name="current">"वर्तमान नेटवर्क्स: "</string>
+
+    <!--选择加入界面-->
+    <string name="join_title">"एक समूह में शामिल होने के लिए टैब अवतार"</string>
+    <string name="join_toast">"आपने अनुमति अस्वीकार कर दी है, और समूह में शामिल नहीं हो सकते"</string>
+    <string name="dialog_msg">"वाईफ़ाई स्कैनिंग के संस्करण के ऊपर एंड्रॉइड 6.0 सिस्टम फोन जीपीएस खोलने की ज़रूरत है, क्या खुला है?"</string>
+
+    <!--正在连接界面-->
+    <string name="joining_connection">"कनेक्ट करना \""</string>
+    <string name="joining_connection1">"\""</string>
+    <string name="joining_text_2">"भेजने के लिए तैयारी"</string>
+
+    <!--邀请好友页面-->
+    <string name="invite_title">"आमंत्रित करें "</string>
+    <string name="invite_tv_1">"इस ऐप को एंड्रॉइड डिवाइस पर साझा करें"</string>
+    <string name="invite_tv_2">"मोबाइल शुल्क के बिना"</string>
+    <string name="invite_btn_bluetooth">"ब्लूटूथ"</string>
+    <string name="invite_btn_hotspot">"हॉटस्पॉट"</string>
+    <string name="invite_tv_3">"XShare डाउनलोड करने के लिए QR कोड स्कैन करें"</string>
+    <string name="invite_btn_more">"अधिक"</string>
+
+    <!--通过热点发送界面-->
+    <string name="invite_hot_title">"हॉटस्पॉट"</string>
+    <string name="invite_hot_tv_1">"चरण 1"</string>
+    <string name="invite_hot_tv_2">"चरण 2"</string>
+    <string name="invite_hot_tv_1_1">"इस ऐप को एंड्रॉइड डिवाइस पर साझा करें \""</string>
+    <string name="invite_hot_tv_1_2">"मुख्य जगह का नाम"</string>
+    <string name="invite_hot_tv_1_3">"\""</string>
+    <string name="invite_hot_tv_2_1">"मित्र को ब्राउज़र में निम्नलिखित यूआरएल दर्ज करने के लिए कहें"</string>
+    <string name="invite_hot_tv_url">"http://192.168.43.1:3999"</string>
+    <string name="invite_hot_tv_3">"या निम्न क्यूआर कोड को स्कैन करें"</string>
+    <string name="invite_hot_tv_note">"नोट QR कोड को स्कैन करने के लिए यदि आपके मित्र WeChat / QQ / Baidu का उपयोग करते हैं तो आपको मोबाइल डेटा चालू करना होगा"</string>
+
+    <!--说明页-->
+    <string name="instruction_1">"1."</string>
+    <string name="instruction_2">"2."</string>
+    <string name="instruction_3">"3."</string>
+    <string name="instruction_tv_left_title">"समूह कैसे बनाएं?"</string>
+    <string name="instruction_tv_left">"समूह बनाएं"</string>
+    <string name="instruction_tv_left_1">"एक समूह बनाएं"</string>
+    <string name="instruction_tv_left_2">"दूसरों में शामिल होने की प्रतीक्षा कर रहा है"</string>
+    <string name="instruction_tv_left_3">"समूह बनाया"</string>
+
+    <string name="instruction_tv_right_title">"समूह कैसे जुड़ें?"</string>
+    <string name="instruction_tv_right">"समूह के सदस्य"</string>
+    <string name="instruction_tv_right_1">"एक समूह में शामिल हों"</string>
+    <string name="instruction_tv_right_2">"एक समूह में शामिल होने के लिए टैब अवतार"</string>
+    <string name="instruction_tv_right_3">"सफलतापूर्वक जोड़ा गया"</string>
+    <string name="instruction_tv_tip">"टिप:"</string>
+    <string name="instruction_tv_tip_body">"स्थानांतरण की गति ज्यादातर समूह निर्माता के मोबाइल मॉडल पर निर्भर करती है। "</string>
+
+    <!--share界面-->
+    <string name="btn_send">"फाइल भेज"</string>
+    <string name="str_unit_mb">"एमबी"</string>
+    <string name="str_unit_sec">"सेकंड"</string>
+    <string name="str_unit_send">"भेजें "</string>
+    <string name="str_unit_lift">"LIFT"</string>
+    <string name="str_dialog_msg">"क्या समूह छोड़ना है?"</string>
+    <string name="share_toast">"अनुमति अस्वीकृत, फ़ाइल प्राप्त नहीं हो सकती"</string>
+
+    <!--选择文件界面-->
+    <string-array name="array_res">
+        <item>"वीडियो"</item>
+        <item>"ऐप्स"</item>
+        <item>"छवियाँ"</item>
+    </string-array>
+    <string name="select_file_title">"फ़ाइलें चुनें"</string>
+    <string name="str_has_selected">"भेजें (0)"</string>
+    <string name="str_next">"भेजें "</string>
+    <string name="str_has_selected_detail">"भेजें ( %d )"</string>
+    <string name="tip_please_select_your_file">"कृपया उस फ़ाइल का चयन करें जिसे आप स्थानांतरित करना चाहते हैं"</string>
+
+    <!--发送-->
+    <string name="send_file_title">"फाइल्स भेजो"</string>
+    <string name="tip_now_has_task_is_running_exist_now">"वर्तमान में भेजने के लिए फ़ाइलें हैं! \ n क्या बाहर निकलना है?"</string>
+    <string name="str_yes">"हाँ"</string>
+    <string name="str_no">"नहीं"</string>
+    <string name="title_file_sender">"फ़ाइल भेजा गया"</string>
+    <string name="send_toast">"अनुमति से इनकार किया गया, फ़ाइल भेजी नहीं जा सकती"</string>
+
+    <!--分类接收到的文件界面-->
+    <string name="str_install">"इंस्टॉल करें"</string>
+    <string name="str_open">"खुला"</string>
+    <string name="str_run">"खुला"</string>
+
+    <string name="str_size">"आकार"</string>
+    <string name="str_path">"फ़ाइल पथ:"</string>
+
+    <string name="str_apk">"APK"</string>
+    <string name="str_jpeg">"जेपीईजी"</string>
+    <string name="str_mp3">"MP3"</string>
+    <string name="str_mp4">"MP4"</string>
+    <string name="str_apk_desc">"ऐप"</string>
+    <string name="str_jpeg_desc">"छवि"</string>
+    <string name="str_mp3_desc">"संगीत"</string>
+    <string name="str_mp4_desc">"वीडियो"</string>
+
+    <string name="title_activity_choose_file">"ChooseFileActivity"</string>
+    <string name="tip_search">"कृपया फ़ाइल का नाम दर्ज करें"</string>
+    <string name="str_title">"शीर्षक"</string>
+
+    <string name="str_transfer_progress">"ट्रांसमिशन प्रक्रिया"</string>
+    <string name="str_cancel">"रद्द करना"</string>
+
+    <string name="str_check">"चेक"</string>
+    <string name="title_file_receiver">"फ़ाइल रिसेप्शन"</string>
+    <string name="title_file_transfer">"फ़ाइल स्वीकार की गई"</string>
+    <string name="title_selected_file_list">"चयनित फाइलें"</string>
+    <string name="str_selected_file_info_detail">"{count} कुल फ़ाइलें {आकार}"</string>
+    <string name="str_selected_file_info_detail_default">"0 फाइल की कुल 0K"</string>
+    <string name="str_clear">"खाली कर दिया"</string>
+
+    <string name="str_0">"0"</string>
+
+    <string name="tip_call_back_agin_and_exist">"{AppName} से बाहर निकलने के लिए फिर से दबाएं "</string>
+
+    <string name="tip_permission_denied">"PERMISSION_DENIED"</string>
+    <string name="tip_permission_denied_and_not_get_file_info_list">"अनुमति अस्वीकृत, फ़ाइल सूची नहीं प्राप्त कर सकते"</string>
+    <string name="tip_permission_denied_and_not_receive_file">"अनुमति अस्वीकृत, फाइल प्राप्त करने में असमर्थ"</string>
+    <string name="tip_permission_denied_and_not_send_file">"अनुमति से इनकार किया गया, फ़ाइल फ़ाइल भेजने में असमर्थ"</string>
+    <string name="online">"ऑनलाइन है ..."</string>
+    <string name="offline">"ऑफलाइन है ..."</string>
+
+    <string name="str_name">"नाम"</string>
+
+
+    <!--新加的String-->
+    <string name="btn_next">आगामी</string>
+    <string name="html_1">कोई नेटवर्क नहीं के साथ फ़ाइल साझा करें</string>
+    <string name="hotspot">हॉटस्पॉट</string>
+    <string name="exitApp">बाहर निकलने के लिए फिर से दबाएं</string>
+    <string name="download">डाउनलोड</string>
+
+
+
+    <string name="permission_joingroup">उपयोग करने के लिए आवेदन को जीपीएस से अनुमति प्राप्त करने की आवश्यकता है।</string>
+    <string name="permission_creategroup">उपयोग करने के लिए आवेदन को वाईफाई से अनुमति प्राप्त करने की आवश्यकता है।</string>
+    <string name="permission_gotochoose">एप्लिकेशन को उनके उपयोग को जारी रखने के लिए फ़ाइल अनुमतियों तक पहुंच की आवश्यकता है।</string>
+    <string name="permission_denied_toast">एक्सशारे के लिए आवश्यक अनुमति अस्वीकार कर दी गई है। यदि आप उपयोग करना जारी रखना चाहते हैं, तो आपको आवश्यक अनुमतियां प्रदान करनी होंगी।</string>
+    <string name="permission_deviceid">उपयोग करने के लिए आवेदन को पढ़ने के लिए फोन की स्थिति से अनुमति प्राप्त करने की आवश्यकता है।</string>
+    <string name="allow">अनुमति देते हैं</string>
+    <string name="refuse">इनकार</string>
+
+</resources>
